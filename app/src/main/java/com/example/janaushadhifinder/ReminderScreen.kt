@@ -30,7 +30,8 @@ import androidx.activity.result.contract.ActivityResultContracts
 data class MedicineReminder(
     val id: Int,
     val medicineName: String,
-    val daysSupply: Int
+    val daysSupply: Int,
+    val repeatType: String = "Monthly"
 )
 
 @Composable
@@ -41,6 +42,7 @@ fun ReminderScreen() {
     var reminders by remember { mutableStateOf(listOf<MedicineReminder>()) }
     var nextId by remember { mutableStateOf(1) }
     var showSuccess by remember { mutableStateOf(false) }
+    var repeatType by remember { mutableStateOf("Monthly") }
 
     if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
         val notifPermission = rememberLauncherForActivityResult(
@@ -115,6 +117,24 @@ fun ReminderScreen() {
 
                 Spacer(modifier = Modifier.height(10.dp))
 
+                Text("Repeat", fontSize = 13.sp, color = Color.Gray)
+                Spacer(modifier = Modifier.height(6.dp))
+                Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                    listOf("Daily", "Weekly", "Monthly").forEach { option ->
+                        FilterChip(
+                            selected = repeatType == option,
+                            onClick = { repeatType = option },
+                            label = { Text(option) },
+                            colors = FilterChipDefaults.filterChipColors(
+                                selectedContainerColor = Color(0xFFE0F2F1),
+                                selectedLabelColor = Color(0xFF00695C)
+                            )
+                        )
+                    }
+                }
+
+                Spacer(modifier = Modifier.height(10.dp))
+
                 // Days supply input
                 OutlinedTextField(
                     value = daysSupply,
@@ -143,7 +163,8 @@ fun ReminderScreen() {
                             val reminder = MedicineReminder(
                                 id = nextId,
                                 medicineName = medicineName.trim(),
-                                daysSupply = days
+                                daysSupply = days,
+                                repeatType = repeatType
                             )
                             reminders = reminders + reminder
                             scheduleReminder(context, reminder)
@@ -257,12 +278,12 @@ fun ReminderCard(reminder: MedicineReminder, onDelete: () -> Unit) {
                     color = Color(0xFF212121)
                 )
                 Text(
-                    text = "${reminder.daysSupply} days supply",
+                    text = "${reminder.daysSupply} days supply • ${reminder.repeatType}",
                     fontSize = 12.sp,
                     color = Color.Gray
                 )
                 Text(
-                    text = "Reminder in ${reminder.daysSupply - 3} days",
+                    text = "Upcoming refill in ${reminder.daysSupply - 3} days",
                     fontSize = 12.sp,
                     color = Color(0xFF00897B),
                     fontWeight = FontWeight.Bold
@@ -296,6 +317,11 @@ fun scheduleReminder(context: Context, reminder: MedicineReminder) {
     val daysBeforeReminder = (reminder.daysSupply - 3).coerceAtLeast(1)
     val triggerTime = System.currentTimeMillis() +
             (daysBeforeReminder * 24 * 60 * 60 * 1000L)
+    val repeatInterval = when (reminder.repeatType) {
+        "Daily" -> AlarmManager.INTERVAL_DAY
+        "Weekly" -> AlarmManager.INTERVAL_DAY * 7
+        else -> AlarmManager.INTERVAL_DAY * 30
+    }
 
     try {
         when {
@@ -333,6 +359,12 @@ fun scheduleReminder(context: Context, reminder: MedicineReminder) {
                 )
             }
         }
+        alarmManager.setRepeating(
+            AlarmManager.RTC_WAKEUP,
+            triggerTime + repeatInterval,
+            repeatInterval,
+            pendingIntent
+        )
     } catch (e: SecurityException) {
         // If exact alarm permission denied, use inexact
         alarmManager.set(

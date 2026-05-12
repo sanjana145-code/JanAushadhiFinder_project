@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">JanAushadhiFinder</string>
+    <string name="search">Search</string>
+    <string name="stores">Stores</string>
+    <string name="reminders">Reminders</string>
+    <string name="savings">Savings</string>
+    <string name="profile">Profile</string>
+    <string name="ai">AI</string>
+    <string name="request_stock">Request Stock</string>
+    <string name="view_nearby_store">View Nearby Store</string>
+    <string name="open_now">Open Now</string>
+    <string name="closed">Closed</string>
+    <string name="ask_ai">Ask AI</string>
 </resources>

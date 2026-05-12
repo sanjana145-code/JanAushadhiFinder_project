@@ -1,0 +1,4682 @@
+﻿[
+    {
+        "brandName":  "Crocin",
+        "genericName":  "Paracetamol",
+        "brandPrice":  45,
+        "genericPrice":  8,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Pain Relief"
+    },
+    {
+        "brandName":  "Dolo",
+        "genericName":  "Paracetamol",
+        "brandPrice":  30,
+        "genericPrice":  5,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Pain Relief"
+    },
+    {
+        "brandName":  "Calpol",
+        "genericName":  "Paracetamol",
+        "brandPrice":  42,
+        "genericPrice":  7,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Pain Relief"
+    },
+    {
+        "brandName":  "Combiflam",
+        "genericName":  "Ibuprofen Paracetamol",
+        "brandPrice":  65,
+        "genericPrice":  12,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Pain Relief"
+    },
+    {
+        "brandName":  "Brufen",
+        "genericName":  "Ibuprofen",
+        "brandPrice":  55,
+        "genericPrice":  10,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Pain Relief"
+    },
+    {
+        "brandName":  "Azithral",
+        "genericName":  "Azithromycin",
+        "brandPrice":  190,
+        "genericPrice":  32,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Antibiotic"
+    },
+    {
+        "brandName":  "Augmentin",
+        "genericName":  "Amoxicillin Clavulanate",
+        "brandPrice":  280,
+        "genericPrice":  45,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Antibiotic"
+    },
+    {
+        "brandName":  "Allegra",
+        "genericName":  "Fexofenadine",
+        "brandPrice":  175,
+        "genericPrice":  22,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Allergy"
+    },
+    {
+        "brandName":  "Cetrizine",
+        "genericName":  "Cetirizine",
+        "brandPrice":  60,
+        "genericPrice":  8,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Allergy"
+    },
+    {
+        "brandName":  "Omez",
+        "genericName":  "Omeprazole",
+        "brandPrice":  85,
+        "genericPrice":  12,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Gastric"
+    },
+    {
+        "brandName":  "Pantop",
+        "genericName":  "Pantoprazole",
+        "brandPrice":  95,
+        "genericPrice":  14,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Gastric"
+    },
+    {
+        "brandName":  "Glycomet",
+        "genericName":  "Metformin",
+        "brandPrice":  110,
+        "genericPrice":  14,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Diabetes"
+    },
+    {
+        "brandName":  "Telma",
+        "genericName":  "Telmisartan",
+        "brandPrice":  195,
+        "genericPrice":  25,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Blood Pressure"
+    },
+    {
+        "brandName":  "Ecosprin",
+        "genericName":  "Aspirin",
+        "brandPrice":  55,
+        "genericPrice":  6,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Cardiac"
+    },
+    {
+        "brandName":  "Atorva",
+        "genericName":  "Atorvastatin",
+        "brandPrice":  210,
+        "genericPrice":  28,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Cardiac"
+    },
+    {
+        "brandName":  "Zincovit",
+        "genericName":  "Zinc Multivitamin",
+        "brandPrice":  145,
+        "genericPrice":  30,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Vitamins"
+    },
+    {
+        "brandName":  "Becosules",
+        "genericName":  "Vitamin B Complex",
+        "brandPrice":  110,
+        "genericPrice":  22,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Vitamins"
+    },
+    {
+        "brandName":  "Volini",
+        "genericName":  "Diclofenac Gel",
+        "brandPrice":  180,
+        "genericPrice":  35,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Pain Relief"
+    },
+    {
+        "brandName":  "Benadryl",
+        "genericName":  "Diphenhydramine",
+        "brandPrice":  95,
+        "genericPrice":  15,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Cough Cold"
+    },
+    {
+        "brandName":  "Digene",
+        "genericName":  "Antacid",
+        "brandPrice":  85,
+        "genericPrice":  18,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Gastric"
+    },
+    {
+        "brandName":  "Aciloc",
+        "genericName":  "Ranitidine",
+        "brandPrice":  70,
+        "genericPrice":  11,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Gastric"
+    },
+    {
+        "brandName":  "Shelcal",
+        "genericName":  "Calcium Vitamin D3",
+        "brandPrice":  135,
+        "genericPrice":  24,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Supplements"
+    },
+    {
+        "brandName":  "Thyronorm",
+        "genericName":  "Levothyroxine",
+        "brandPrice":  155,
+        "genericPrice":  18,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Thyroid"
+    },
+    {
+        "brandName":  "Montek",
+        "genericName":  "Montelukast",
+        "brandPrice":  165,
+        "genericPrice":  27,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Respiratory"
+    },
+    {
+        "brandName":  "Asthalin",
+        "genericName":  "Salbutamol",
+        "brandPrice":  120,
+        "genericPrice":  22,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Respiratory"
+    },
+    {
+        "brandName":  "Lasix",
+        "genericName":  "Furosemide",
+        "brandPrice":  38,
+        "genericPrice":  5,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Cardiac"
+    },
+    {
+        "brandName":  "Crocin 500 mg",
+        "genericName":  "Paracetamol 500 mg",
+        "brandPrice":  48,
+        "genericPrice":  9,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Pain Relief"
+    },
+    {
+        "brandName":  "Dolo 500 mg",
+        "genericName":  "Paracetamol 500 mg",
+        "brandPrice":  33,
+        "genericPrice":  6,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Pain Relief"
+    },
+    {
+        "brandName":  "Calpol 500 mg",
+        "genericName":  "Paracetamol 500 mg",
+        "brandPrice":  45,
+        "genericPrice":  8,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Pain Relief"
+    },
+    {
+        "brandName":  "Combiflam 500 mg",
+        "genericName":  "Ibuprofen Paracetamol 500 mg",
+        "brandPrice":  68,
+        "genericPrice":  13,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Pain Relief"
+    },
+    {
+        "brandName":  "Brufen 500 mg",
+        "genericName":  "Ibuprofen 500 mg",
+        "brandPrice":  58,
+        "genericPrice":  11,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Pain Relief"
+    },
+    {
+        "brandName":  "Azithral 500 mg",
+        "genericName":  "Azithromycin 500 mg",
+        "brandPrice":  193,
+        "genericPrice":  33,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Antibiotic"
+    },
+    {
+        "brandName":  "Augmentin 500 mg",
+        "genericName":  "Amoxicillin Clavulanate 500 mg",
+        "brandPrice":  283,
+        "genericPrice":  46,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Antibiotic"
+    },
+    {
+        "brandName":  "Allegra 500 mg",
+        "genericName":  "Fexofenadine 500 mg",
+        "brandPrice":  178,
+        "genericPrice":  23,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Allergy"
+    },
+    {
+        "brandName":  "Cetrizine 500 mg",
+        "genericName":  "Cetirizine 500 mg",
+        "brandPrice":  63,
+        "genericPrice":  9,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Allergy"
+    },
+    {
+        "brandName":  "Omez 500 mg",
+        "genericName":  "Omeprazole 500 mg",
+        "brandPrice":  88,
+        "genericPrice":  13,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Gastric"
+    },
+    {
+        "brandName":  "Pantop 500 mg",
+        "genericName":  "Pantoprazole 500 mg",
+        "brandPrice":  98,
+        "genericPrice":  15,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Gastric"
+    },
+    {
+        "brandName":  "Glycomet 500 mg",
+        "genericName":  "Metformin 500 mg",
+        "brandPrice":  113,
+        "genericPrice":  15,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Diabetes"
+    },
+    {
+        "brandName":  "Telma 500 mg",
+        "genericName":  "Telmisartan 500 mg",
+        "brandPrice":  198,
+        "genericPrice":  26,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Blood Pressure"
+    },
+    {
+        "brandName":  "Ecosprin 500 mg",
+        "genericName":  "Aspirin 500 mg",
+        "brandPrice":  58,
+        "genericPrice":  7,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Cardiac"
+    },
+    {
+        "brandName":  "Atorva 500 mg",
+        "genericName":  "Atorvastatin 500 mg",
+        "brandPrice":  213,
+        "genericPrice":  29,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Cardiac"
+    },
+    {
+        "brandName":  "Zincovit 500 mg",
+        "genericName":  "Zinc Multivitamin 500 mg",
+        "brandPrice":  148,
+        "genericPrice":  31,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Vitamins"
+    },
+    {
+        "brandName":  "Becosules 500 mg",
+        "genericName":  "Vitamin B Complex 500 mg",
+        "brandPrice":  113,
+        "genericPrice":  23,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Vitamins"
+    },
+    {
+        "brandName":  "Volini 500 mg",
+        "genericName":  "Diclofenac Gel 500 mg",
+        "brandPrice":  183,
+        "genericPrice":  36,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Pain Relief"
+    },
+    {
+        "brandName":  "Benadryl 500 mg",
+        "genericName":  "Diphenhydramine 500 mg",
+        "brandPrice":  98,
+        "genericPrice":  16,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Cough Cold"
+    },
+    {
+        "brandName":  "Digene 500 mg",
+        "genericName":  "Antacid 500 mg",
+        "brandPrice":  88,
+        "genericPrice":  19,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Gastric"
+    },
+    {
+        "brandName":  "Aciloc 500 mg",
+        "genericName":  "Ranitidine 500 mg",
+        "brandPrice":  73,
+        "genericPrice":  12,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Gastric"
+    },
+    {
+        "brandName":  "Shelcal 500 mg",
+        "genericName":  "Calcium Vitamin D3 500 mg",
+        "brandPrice":  138,
+        "genericPrice":  25,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Supplements"
+    },
+    {
+        "brandName":  "Thyronorm 500 mg",
+        "genericName":  "Levothyroxine 500 mg",
+        "brandPrice":  158,
+        "genericPrice":  19,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Thyroid"
+    },
+    {
+        "brandName":  "Montek 500 mg",
+        "genericName":  "Montelukast 500 mg",
+        "brandPrice":  168,
+        "genericPrice":  28,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Respiratory"
+    },
+    {
+        "brandName":  "Asthalin 500 mg",
+        "genericName":  "Salbutamol 500 mg",
+        "brandPrice":  123,
+        "genericPrice":  23,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Respiratory"
+    },
+    {
+        "brandName":  "Lasix 500 mg",
+        "genericName":  "Furosemide 500 mg",
+        "brandPrice":  41,
+        "genericPrice":  6,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Cardiac"
+    },
+    {
+        "brandName":  "Crocin 650 mg",
+        "genericName":  "Paracetamol 650 mg",
+        "brandPrice":  51,
+        "genericPrice":  10,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Pain Relief"
+    },
+    {
+        "brandName":  "Dolo 650 mg",
+        "genericName":  "Paracetamol 650 mg",
+        "brandPrice":  36,
+        "genericPrice":  7,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Pain Relief"
+    },
+    {
+        "brandName":  "Calpol 650 mg",
+        "genericName":  "Paracetamol 650 mg",
+        "brandPrice":  48,
+        "genericPrice":  9,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Pain Relief"
+    },
+    {
+        "brandName":  "Combiflam 650 mg",
+        "genericName":  "Ibuprofen Paracetamol 650 mg",
+        "brandPrice":  71,
+        "genericPrice":  14,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Pain Relief"
+    },
+    {
+        "brandName":  "Brufen 650 mg",
+        "genericName":  "Ibuprofen 650 mg",
+        "brandPrice":  61,
+        "genericPrice":  12,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Pain Relief"
+    },
+    {
+        "brandName":  "Azithral 650 mg",
+        "genericName":  "Azithromycin 650 mg",
+        "brandPrice":  196,
+        "genericPrice":  34,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Antibiotic"
+    },
+    {
+        "brandName":  "Augmentin 650 mg",
+        "genericName":  "Amoxicillin Clavulanate 650 mg",
+        "brandPrice":  286,
+        "genericPrice":  47,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Antibiotic"
+    },
+    {
+        "brandName":  "Allegra 650 mg",
+        "genericName":  "Fexofenadine 650 mg",
+        "brandPrice":  181,
+        "genericPrice":  24,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Allergy"
+    },
+    {
+        "brandName":  "Cetrizine 650 mg",
+        "genericName":  "Cetirizine 650 mg",
+        "brandPrice":  66,
+        "genericPrice":  10,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Allergy"
+    },
+    {
+        "brandName":  "Omez 650 mg",
+        "genericName":  "Omeprazole 650 mg",
+        "brandPrice":  91,
+        "genericPrice":  14,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Gastric"
+    },
+    {
+        "brandName":  "Pantop 650 mg",
+        "genericName":  "Pantoprazole 650 mg",
+        "brandPrice":  101,
+        "genericPrice":  16,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Gastric"
+    },
+    {
+        "brandName":  "Glycomet 650 mg",
+        "genericName":  "Metformin 650 mg",
+        "brandPrice":  116,
+        "genericPrice":  16,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Diabetes"
+    },
+    {
+        "brandName":  "Telma 650 mg",
+        "genericName":  "Telmisartan 650 mg",
+        "brandPrice":  201,
+        "genericPrice":  27,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Blood Pressure"
+    },
+    {
+        "brandName":  "Ecosprin 650 mg",
+        "genericName":  "Aspirin 650 mg",
+        "brandPrice":  61,
+        "genericPrice":  8,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Cardiac"
+    },
+    {
+        "brandName":  "Atorva 650 mg",
+        "genericName":  "Atorvastatin 650 mg",
+        "brandPrice":  216,
+        "genericPrice":  30,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Cardiac"
+    },
+    {
+        "brandName":  "Zincovit 650 mg",
+        "genericName":  "Zinc Multivitamin 650 mg",
+        "brandPrice":  151,
+        "genericPrice":  32,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Vitamins"
+    },
+    {
+        "brandName":  "Becosules 650 mg",
+        "genericName":  "Vitamin B Complex 650 mg",
+        "brandPrice":  116,
+        "genericPrice":  24,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Vitamins"
+    },
+    {
+        "brandName":  "Volini 650 mg",
+        "genericName":  "Diclofenac Gel 650 mg",
+        "brandPrice":  186,
+        "genericPrice":  37,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Pain Relief"
+    },
+    {
+        "brandName":  "Benadryl 650 mg",
+        "genericName":  "Diphenhydramine 650 mg",
+        "brandPrice":  101,
+        "genericPrice":  17,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Cough Cold"
+    },
+    {
+        "brandName":  "Digene 650 mg",
+        "genericName":  "Antacid 650 mg",
+        "brandPrice":  91,
+        "genericPrice":  20,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Gastric"
+    },
+    {
+        "brandName":  "Aciloc 650 mg",
+        "genericName":  "Ranitidine 650 mg",
+        "brandPrice":  76,
+        "genericPrice":  13,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Gastric"
+    },
+    {
+        "brandName":  "Shelcal 650 mg",
+        "genericName":  "Calcium Vitamin D3 650 mg",
+        "brandPrice":  141,
+        "genericPrice":  26,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Supplements"
+    },
+    {
+        "brandName":  "Thyronorm 650 mg",
+        "genericName":  "Levothyroxine 650 mg",
+        "brandPrice":  161,
+        "genericPrice":  20,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Thyroid"
+    },
+    {
+        "brandName":  "Montek 650 mg",
+        "genericName":  "Montelukast 650 mg",
+        "brandPrice":  171,
+        "genericPrice":  29,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Respiratory"
+    },
+    {
+        "brandName":  "Asthalin 650 mg",
+        "genericName":  "Salbutamol 650 mg",
+        "brandPrice":  126,
+        "genericPrice":  24,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Respiratory"
+    },
+    {
+        "brandName":  "Lasix 650 mg",
+        "genericName":  "Furosemide 650 mg",
+        "brandPrice":  44,
+        "genericPrice":  7,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Cardiac"
+    },
+    {
+        "brandName":  "Crocin 5 mg",
+        "genericName":  "Paracetamol 5 mg",
+        "brandPrice":  54,
+        "genericPrice":  11,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Pain Relief"
+    },
+    {
+        "brandName":  "Dolo 5 mg",
+        "genericName":  "Paracetamol 5 mg",
+        "brandPrice":  39,
+        "genericPrice":  8,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Pain Relief"
+    },
+    {
+        "brandName":  "Calpol 5 mg",
+        "genericName":  "Paracetamol 5 mg",
+        "brandPrice":  51,
+        "genericPrice":  10,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Pain Relief"
+    },
+    {
+        "brandName":  "Combiflam 5 mg",
+        "genericName":  "Ibuprofen Paracetamol 5 mg",
+        "brandPrice":  74,
+        "genericPrice":  15,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Pain Relief"
+    },
+    {
+        "brandName":  "Brufen 5 mg",
+        "genericName":  "Ibuprofen 5 mg",
+        "brandPrice":  64,
+        "genericPrice":  13,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Pain Relief"
+    },
+    {
+        "brandName":  "Azithral 5 mg",
+        "genericName":  "Azithromycin 5 mg",
+        "brandPrice":  199,
+        "genericPrice":  35,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Antibiotic"
+    },
+    {
+        "brandName":  "Augmentin 5 mg",
+        "genericName":  "Amoxicillin Clavulanate 5 mg",
+        "brandPrice":  289,
+        "genericPrice":  48,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Antibiotic"
+    },
+    {
+        "brandName":  "Allegra 5 mg",
+        "genericName":  "Fexofenadine 5 mg",
+        "brandPrice":  184,
+        "genericPrice":  25,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Allergy"
+    },
+    {
+        "brandName":  "Cetrizine 5 mg",
+        "genericName":  "Cetirizine 5 mg",
+        "brandPrice":  69,
+        "genericPrice":  11,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Allergy"
+    },
+    {
+        "brandName":  "Omez 5 mg",
+        "genericName":  "Omeprazole 5 mg",
+        "brandPrice":  94,
+        "genericPrice":  15,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Gastric"
+    },
+    {
+        "brandName":  "Pantop 5 mg",
+        "genericName":  "Pantoprazole 5 mg",
+        "brandPrice":  104,
+        "genericPrice":  17,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Gastric"
+    },
+    {
+        "brandName":  "Glycomet 5 mg",
+        "genericName":  "Metformin 5 mg",
+        "brandPrice":  119,
+        "genericPrice":  17,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Diabetes"
+    },
+    {
+        "brandName":  "Telma 5 mg",
+        "genericName":  "Telmisartan 5 mg",
+        "brandPrice":  204,
+        "genericPrice":  28,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Blood Pressure"
+    },
+    {
+        "brandName":  "Ecosprin 5 mg",
+        "genericName":  "Aspirin 5 mg",
+        "brandPrice":  64,
+        "genericPrice":  9,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Cardiac"
+    },
+    {
+        "brandName":  "Atorva 5 mg",
+        "genericName":  "Atorvastatin 5 mg",
+        "brandPrice":  219,
+        "genericPrice":  31,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Cardiac"
+    },
+    {
+        "brandName":  "Zincovit 5 mg",
+        "genericName":  "Zinc Multivitamin 5 mg",
+        "brandPrice":  154,
+        "genericPrice":  33,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Vitamins"
+    },
+    {
+        "brandName":  "Becosules 5 mg",
+        "genericName":  "Vitamin B Complex 5 mg",
+        "brandPrice":  119,
+        "genericPrice":  25,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Vitamins"
+    },
+    {
+        "brandName":  "Volini 5 mg",
+        "genericName":  "Diclofenac Gel 5 mg",
+        "brandPrice":  189,
+        "genericPrice":  38,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Pain Relief"
+    },
+    {
+        "brandName":  "Benadryl 5 mg",
+        "genericName":  "Diphenhydramine 5 mg",
+        "brandPrice":  104,
+        "genericPrice":  18,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Cough Cold"
+    },
+    {
+        "brandName":  "Digene 5 mg",
+        "genericName":  "Antacid 5 mg",
+        "brandPrice":  94,
+        "genericPrice":  21,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Gastric"
+    },
+    {
+        "brandName":  "Aciloc 5 mg",
+        "genericName":  "Ranitidine 5 mg",
+        "brandPrice":  79,
+        "genericPrice":  14,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Gastric"
+    },
+    {
+        "brandName":  "Shelcal 5 mg",
+        "genericName":  "Calcium Vitamin D3 5 mg",
+        "brandPrice":  144,
+        "genericPrice":  27,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Supplements"
+    },
+    {
+        "brandName":  "Thyronorm 5 mg",
+        "genericName":  "Levothyroxine 5 mg",
+        "brandPrice":  164,
+        "genericPrice":  21,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Thyroid"
+    },
+    {
+        "brandName":  "Montek 5 mg",
+        "genericName":  "Montelukast 5 mg",
+        "brandPrice":  174,
+        "genericPrice":  30,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Respiratory"
+    },
+    {
+        "brandName":  "Asthalin 5 mg",
+        "genericName":  "Salbutamol 5 mg",
+        "brandPrice":  129,
+        "genericPrice":  25,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Respiratory"
+    },
+    {
+        "brandName":  "Lasix 5 mg",
+        "genericName":  "Furosemide 5 mg",
+        "brandPrice":  47,
+        "genericPrice":  8,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Cardiac"
+    },
+    {
+        "brandName":  "Crocin 10 mg",
+        "genericName":  "Paracetamol 10 mg",
+        "brandPrice":  57,
+        "genericPrice":  12,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Pain Relief"
+    },
+    {
+        "brandName":  "Dolo 10 mg",
+        "genericName":  "Paracetamol 10 mg",
+        "brandPrice":  42,
+        "genericPrice":  9,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Pain Relief"
+    },
+    {
+        "brandName":  "Calpol 10 mg",
+        "genericName":  "Paracetamol 10 mg",
+        "brandPrice":  54,
+        "genericPrice":  11,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Pain Relief"
+    },
+    {
+        "brandName":  "Combiflam 10 mg",
+        "genericName":  "Ibuprofen Paracetamol 10 mg",
+        "brandPrice":  77,
+        "genericPrice":  16,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Pain Relief"
+    },
+    {
+        "brandName":  "Brufen 10 mg",
+        "genericName":  "Ibuprofen 10 mg",
+        "brandPrice":  67,
+        "genericPrice":  14,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Pain Relief"
+    },
+    {
+        "brandName":  "Azithral 10 mg",
+        "genericName":  "Azithromycin 10 mg",
+        "brandPrice":  202,
+        "genericPrice":  36,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Antibiotic"
+    },
+    {
+        "brandName":  "Augmentin 10 mg",
+        "genericName":  "Amoxicillin Clavulanate 10 mg",
+        "brandPrice":  292,
+        "genericPrice":  49,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Antibiotic"
+    },
+    {
+        "brandName":  "Allegra 10 mg",
+        "genericName":  "Fexofenadine 10 mg",
+        "brandPrice":  187,
+        "genericPrice":  26,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Allergy"
+    },
+    {
+        "brandName":  "Cetrizine 10 mg",
+        "genericName":  "Cetirizine 10 mg",
+        "brandPrice":  72,
+        "genericPrice":  12,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Allergy"
+    },
+    {
+        "brandName":  "Omez 10 mg",
+        "genericName":  "Omeprazole 10 mg",
+        "brandPrice":  97,
+        "genericPrice":  16,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Gastric"
+    },
+    {
+        "brandName":  "Pantop 10 mg",
+        "genericName":  "Pantoprazole 10 mg",
+        "brandPrice":  107,
+        "genericPrice":  18,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Gastric"
+    },
+    {
+        "brandName":  "Glycomet 10 mg",
+        "genericName":  "Metformin 10 mg",
+        "brandPrice":  122,
+        "genericPrice":  18,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Diabetes"
+    },
+    {
+        "brandName":  "Telma 10 mg",
+        "genericName":  "Telmisartan 10 mg",
+        "brandPrice":  207,
+        "genericPrice":  29,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Blood Pressure"
+    },
+    {
+        "brandName":  "Ecosprin 10 mg",
+        "genericName":  "Aspirin 10 mg",
+        "brandPrice":  67,
+        "genericPrice":  10,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Cardiac"
+    },
+    {
+        "brandName":  "Atorva 10 mg",
+        "genericName":  "Atorvastatin 10 mg",
+        "brandPrice":  222,
+        "genericPrice":  32,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Cardiac"
+    },
+    {
+        "brandName":  "Zincovit 10 mg",
+        "genericName":  "Zinc Multivitamin 10 mg",
+        "brandPrice":  157,
+        "genericPrice":  34,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Vitamins"
+    },
+    {
+        "brandName":  "Becosules 10 mg",
+        "genericName":  "Vitamin B Complex 10 mg",
+        "brandPrice":  122,
+        "genericPrice":  26,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Vitamins"
+    },
+    {
+        "brandName":  "Volini 10 mg",
+        "genericName":  "Diclofenac Gel 10 mg",
+        "brandPrice":  192,
+        "genericPrice":  39,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Pain Relief"
+    },
+    {
+        "brandName":  "Benadryl 10 mg",
+        "genericName":  "Diphenhydramine 10 mg",
+        "brandPrice":  107,
+        "genericPrice":  19,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Cough Cold"
+    },
+    {
+        "brandName":  "Digene 10 mg",
+        "genericName":  "Antacid 10 mg",
+        "brandPrice":  97,
+        "genericPrice":  22,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Gastric"
+    },
+    {
+        "brandName":  "Aciloc 10 mg",
+        "genericName":  "Ranitidine 10 mg",
+        "brandPrice":  82,
+        "genericPrice":  15,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Gastric"
+    },
+    {
+        "brandName":  "Shelcal 10 mg",
+        "genericName":  "Calcium Vitamin D3 10 mg",
+        "brandPrice":  147,
+        "genericPrice":  28,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Supplements"
+    },
+    {
+        "brandName":  "Thyronorm 10 mg",
+        "genericName":  "Levothyroxine 10 mg",
+        "brandPrice":  167,
+        "genericPrice":  22,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Thyroid"
+    },
+    {
+        "brandName":  "Montek 10 mg",
+        "genericName":  "Montelukast 10 mg",
+        "brandPrice":  177,
+        "genericPrice":  31,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Respiratory"
+    },
+    {
+        "brandName":  "Asthalin 10 mg",
+        "genericName":  "Salbutamol 10 mg",
+        "brandPrice":  132,
+        "genericPrice":  26,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Respiratory"
+    },
+    {
+        "brandName":  "Lasix 10 mg",
+        "genericName":  "Furosemide 10 mg",
+        "brandPrice":  50,
+        "genericPrice":  9,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Cardiac"
+    },
+    {
+        "brandName":  "Crocin 20 mg",
+        "genericName":  "Paracetamol 20 mg",
+        "brandPrice":  60,
+        "genericPrice":  13,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Pain Relief"
+    },
+    {
+        "brandName":  "Dolo 20 mg",
+        "genericName":  "Paracetamol 20 mg",
+        "brandPrice":  45,
+        "genericPrice":  10,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Pain Relief"
+    },
+    {
+        "brandName":  "Calpol 20 mg",
+        "genericName":  "Paracetamol 20 mg",
+        "brandPrice":  57,
+        "genericPrice":  12,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Pain Relief"
+    },
+    {
+        "brandName":  "Combiflam 20 mg",
+        "genericName":  "Ibuprofen Paracetamol 20 mg",
+        "brandPrice":  80,
+        "genericPrice":  17,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Pain Relief"
+    },
+    {
+        "brandName":  "Brufen 20 mg",
+        "genericName":  "Ibuprofen 20 mg",
+        "brandPrice":  70,
+        "genericPrice":  15,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Pain Relief"
+    },
+    {
+        "brandName":  "Azithral 20 mg",
+        "genericName":  "Azithromycin 20 mg",
+        "brandPrice":  205,
+        "genericPrice":  37,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Antibiotic"
+    },
+    {
+        "brandName":  "Augmentin 20 mg",
+        "genericName":  "Amoxicillin Clavulanate 20 mg",
+        "brandPrice":  295,
+        "genericPrice":  50,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Antibiotic"
+    },
+    {
+        "brandName":  "Allegra 20 mg",
+        "genericName":  "Fexofenadine 20 mg",
+        "brandPrice":  190,
+        "genericPrice":  27,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Allergy"
+    },
+    {
+        "brandName":  "Cetrizine 20 mg",
+        "genericName":  "Cetirizine 20 mg",
+        "brandPrice":  75,
+        "genericPrice":  13,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Allergy"
+    },
+    {
+        "brandName":  "Omez 20 mg",
+        "genericName":  "Omeprazole 20 mg",
+        "brandPrice":  100,
+        "genericPrice":  17,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Gastric"
+    },
+    {
+        "brandName":  "Pantop 20 mg",
+        "genericName":  "Pantoprazole 20 mg",
+        "brandPrice":  110,
+        "genericPrice":  19,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Gastric"
+    },
+    {
+        "brandName":  "Glycomet 20 mg",
+        "genericName":  "Metformin 20 mg",
+        "brandPrice":  125,
+        "genericPrice":  19,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Diabetes"
+    },
+    {
+        "brandName":  "Telma 20 mg",
+        "genericName":  "Telmisartan 20 mg",
+        "brandPrice":  210,
+        "genericPrice":  30,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Blood Pressure"
+    },
+    {
+        "brandName":  "Ecosprin 20 mg",
+        "genericName":  "Aspirin 20 mg",
+        "brandPrice":  70,
+        "genericPrice":  11,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Cardiac"
+    },
+    {
+        "brandName":  "Atorva 20 mg",
+        "genericName":  "Atorvastatin 20 mg",
+        "brandPrice":  225,
+        "genericPrice":  33,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Cardiac"
+    },
+    {
+        "brandName":  "Zincovit 20 mg",
+        "genericName":  "Zinc Multivitamin 20 mg",
+        "brandPrice":  160,
+        "genericPrice":  35,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Vitamins"
+    },
+    {
+        "brandName":  "Becosules 20 mg",
+        "genericName":  "Vitamin B Complex 20 mg",
+        "brandPrice":  125,
+        "genericPrice":  27,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Vitamins"
+    },
+    {
+        "brandName":  "Volini 20 mg",
+        "genericName":  "Diclofenac Gel 20 mg",
+        "brandPrice":  195,
+        "genericPrice":  40,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Pain Relief"
+    },
+    {
+        "brandName":  "Benadryl 20 mg",
+        "genericName":  "Diphenhydramine 20 mg",
+        "brandPrice":  110,
+        "genericPrice":  20,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Cough Cold"
+    },
+    {
+        "brandName":  "Digene 20 mg",
+        "genericName":  "Antacid 20 mg",
+        "brandPrice":  100,
+        "genericPrice":  23,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Gastric"
+    },
+    {
+        "brandName":  "Aciloc 20 mg",
+        "genericName":  "Ranitidine 20 mg",
+        "brandPrice":  85,
+        "genericPrice":  16,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Gastric"
+    },
+    {
+        "brandName":  "Shelcal 20 mg",
+        "genericName":  "Calcium Vitamin D3 20 mg",
+        "brandPrice":  150,
+        "genericPrice":  29,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Supplements"
+    },
+    {
+        "brandName":  "Thyronorm 20 mg",
+        "genericName":  "Levothyroxine 20 mg",
+        "brandPrice":  170,
+        "genericPrice":  23,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Thyroid"
+    },
+    {
+        "brandName":  "Montek 20 mg",
+        "genericName":  "Montelukast 20 mg",
+        "brandPrice":  180,
+        "genericPrice":  32,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Respiratory"
+    },
+    {
+        "brandName":  "Asthalin 20 mg",
+        "genericName":  "Salbutamol 20 mg",
+        "brandPrice":  135,
+        "genericPrice":  27,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Respiratory"
+    },
+    {
+        "brandName":  "Lasix 20 mg",
+        "genericName":  "Furosemide 20 mg",
+        "brandPrice":  53,
+        "genericPrice":  10,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Cardiac"
+    },
+    {
+        "brandName":  "Crocin 40 mg",
+        "genericName":  "Paracetamol 40 mg",
+        "brandPrice":  63,
+        "genericPrice":  14,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Pain Relief"
+    },
+    {
+        "brandName":  "Dolo 40 mg",
+        "genericName":  "Paracetamol 40 mg",
+        "brandPrice":  48,
+        "genericPrice":  11,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Pain Relief"
+    },
+    {
+        "brandName":  "Calpol 40 mg",
+        "genericName":  "Paracetamol 40 mg",
+        "brandPrice":  60,
+        "genericPrice":  13,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Pain Relief"
+    },
+    {
+        "brandName":  "Combiflam 40 mg",
+        "genericName":  "Ibuprofen Paracetamol 40 mg",
+        "brandPrice":  83,
+        "genericPrice":  18,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Pain Relief"
+    },
+    {
+        "brandName":  "Brufen 40 mg",
+        "genericName":  "Ibuprofen 40 mg",
+        "brandPrice":  73,
+        "genericPrice":  16,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Pain Relief"
+    },
+    {
+        "brandName":  "Azithral 40 mg",
+        "genericName":  "Azithromycin 40 mg",
+        "brandPrice":  208,
+        "genericPrice":  38,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Antibiotic"
+    },
+    {
+        "brandName":  "Augmentin 40 mg",
+        "genericName":  "Amoxicillin Clavulanate 40 mg",
+        "brandPrice":  298,
+        "genericPrice":  51,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Antibiotic"
+    },
+    {
+        "brandName":  "Allegra 40 mg",
+        "genericName":  "Fexofenadine 40 mg",
+        "brandPrice":  193,
+        "genericPrice":  28,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Allergy"
+    },
+    {
+        "brandName":  "Cetrizine 40 mg",
+        "genericName":  "Cetirizine 40 mg",
+        "brandPrice":  78,
+        "genericPrice":  14,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Allergy"
+    },
+    {
+        "brandName":  "Omez 40 mg",
+        "genericName":  "Omeprazole 40 mg",
+        "brandPrice":  103,
+        "genericPrice":  18,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Gastric"
+    },
+    {
+        "brandName":  "Pantop 40 mg",
+        "genericName":  "Pantoprazole 40 mg",
+        "brandPrice":  113,
+        "genericPrice":  20,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Gastric"
+    },
+    {
+        "brandName":  "Glycomet 40 mg",
+        "genericName":  "Metformin 40 mg",
+        "brandPrice":  128,
+        "genericPrice":  20,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Diabetes"
+    },
+    {
+        "brandName":  "Telma 40 mg",
+        "genericName":  "Telmisartan 40 mg",
+        "brandPrice":  213,
+        "genericPrice":  31,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Blood Pressure"
+    },
+    {
+        "brandName":  "Ecosprin 40 mg",
+        "genericName":  "Aspirin 40 mg",
+        "brandPrice":  73,
+        "genericPrice":  12,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Cardiac"
+    },
+    {
+        "brandName":  "Atorva 40 mg",
+        "genericName":  "Atorvastatin 40 mg",
+        "brandPrice":  228,
+        "genericPrice":  34,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Cardiac"
+    },
+    {
+        "brandName":  "Zincovit 40 mg",
+        "genericName":  "Zinc Multivitamin 40 mg",
+        "brandPrice":  163,
+        "genericPrice":  36,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Vitamins"
+    },
+    {
+        "brandName":  "Becosules 40 mg",
+        "genericName":  "Vitamin B Complex 40 mg",
+        "brandPrice":  128,
+        "genericPrice":  28,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Vitamins"
+    },
+    {
+        "brandName":  "Volini 40 mg",
+        "genericName":  "Diclofenac Gel 40 mg",
+        "brandPrice":  198,
+        "genericPrice":  41,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Pain Relief"
+    },
+    {
+        "brandName":  "Benadryl 40 mg",
+        "genericName":  "Diphenhydramine 40 mg",
+        "brandPrice":  113,
+        "genericPrice":  21,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Cough Cold"
+    },
+    {
+        "brandName":  "Digene 40 mg",
+        "genericName":  "Antacid 40 mg",
+        "brandPrice":  103,
+        "genericPrice":  24,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Gastric"
+    },
+    {
+        "brandName":  "Aciloc 40 mg",
+        "genericName":  "Ranitidine 40 mg",
+        "brandPrice":  88,
+        "genericPrice":  17,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Gastric"
+    },
+    {
+        "brandName":  "Shelcal 40 mg",
+        "genericName":  "Calcium Vitamin D3 40 mg",
+        "brandPrice":  153,
+        "genericPrice":  30,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Supplements"
+    },
+    {
+        "brandName":  "Thyronorm 40 mg",
+        "genericName":  "Levothyroxine 40 mg",
+        "brandPrice":  173,
+        "genericPrice":  24,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Thyroid"
+    },
+    {
+        "brandName":  "Montek 40 mg",
+        "genericName":  "Montelukast 40 mg",
+        "brandPrice":  183,
+        "genericPrice":  33,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Respiratory"
+    },
+    {
+        "brandName":  "Asthalin 40 mg",
+        "genericName":  "Salbutamol 40 mg",
+        "brandPrice":  138,
+        "genericPrice":  28,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Respiratory"
+    },
+    {
+        "brandName":  "Lasix 40 mg",
+        "genericName":  "Furosemide 40 mg",
+        "brandPrice":  56,
+        "genericPrice":  11,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Cardiac"
+    },
+    {
+        "brandName":  "Crocin SR",
+        "genericName":  "Paracetamol SR",
+        "brandPrice":  66,
+        "genericPrice":  15,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Pain Relief"
+    },
+    {
+        "brandName":  "Dolo SR",
+        "genericName":  "Paracetamol SR",
+        "brandPrice":  51,
+        "genericPrice":  12,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Pain Relief"
+    },
+    {
+        "brandName":  "Calpol SR",
+        "genericName":  "Paracetamol SR",
+        "brandPrice":  63,
+        "genericPrice":  14,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Pain Relief"
+    },
+    {
+        "brandName":  "Combiflam SR",
+        "genericName":  "Ibuprofen Paracetamol SR",
+        "brandPrice":  86,
+        "genericPrice":  19,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Pain Relief"
+    },
+    {
+        "brandName":  "Brufen SR",
+        "genericName":  "Ibuprofen SR",
+        "brandPrice":  76,
+        "genericPrice":  17,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Pain Relief"
+    },
+    {
+        "brandName":  "Azithral SR",
+        "genericName":  "Azithromycin SR",
+        "brandPrice":  211,
+        "genericPrice":  39,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Antibiotic"
+    },
+    {
+        "brandName":  "Augmentin SR",
+        "genericName":  "Amoxicillin Clavulanate SR",
+        "brandPrice":  301,
+        "genericPrice":  52,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Antibiotic"
+    },
+    {
+        "brandName":  "Allegra SR",
+        "genericName":  "Fexofenadine SR",
+        "brandPrice":  196,
+        "genericPrice":  29,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Allergy"
+    },
+    {
+        "brandName":  "Cetrizine SR",
+        "genericName":  "Cetirizine SR",
+        "brandPrice":  81,
+        "genericPrice":  15,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Allergy"
+    },
+    {
+        "brandName":  "Omez SR",
+        "genericName":  "Omeprazole SR",
+        "brandPrice":  106,
+        "genericPrice":  19,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Gastric"
+    },
+    {
+        "brandName":  "Pantop SR",
+        "genericName":  "Pantoprazole SR",
+        "brandPrice":  116,
+        "genericPrice":  21,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Gastric"
+    },
+    {
+        "brandName":  "Glycomet SR",
+        "genericName":  "Metformin SR",
+        "brandPrice":  131,
+        "genericPrice":  21,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Diabetes"
+    },
+    {
+        "brandName":  "Telma SR",
+        "genericName":  "Telmisartan SR",
+        "brandPrice":  216,
+        "genericPrice":  32,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Blood Pressure"
+    },
+    {
+        "brandName":  "Ecosprin SR",
+        "genericName":  "Aspirin SR",
+        "brandPrice":  76,
+        "genericPrice":  13,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Cardiac"
+    },
+    {
+        "brandName":  "Atorva SR",
+        "genericName":  "Atorvastatin SR",
+        "brandPrice":  231,
+        "genericPrice":  35,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Cardiac"
+    },
+    {
+        "brandName":  "Zincovit SR",
+        "genericName":  "Zinc Multivitamin SR",
+        "brandPrice":  166,
+        "genericPrice":  37,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Vitamins"
+    },
+    {
+        "brandName":  "Becosules SR",
+        "genericName":  "Vitamin B Complex SR",
+        "brandPrice":  131,
+        "genericPrice":  29,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Vitamins"
+    },
+    {
+        "brandName":  "Volini SR",
+        "genericName":  "Diclofenac Gel SR",
+        "brandPrice":  201,
+        "genericPrice":  42,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Pain Relief"
+    },
+    {
+        "brandName":  "Benadryl SR",
+        "genericName":  "Diphenhydramine SR",
+        "brandPrice":  116,
+        "genericPrice":  22,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Cough Cold"
+    },
+    {
+        "brandName":  "Digene SR",
+        "genericName":  "Antacid SR",
+        "brandPrice":  106,
+        "genericPrice":  25,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Gastric"
+    },
+    {
+        "brandName":  "Aciloc SR",
+        "genericName":  "Ranitidine SR",
+        "brandPrice":  91,
+        "genericPrice":  18,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Gastric"
+    },
+    {
+        "brandName":  "Shelcal SR",
+        "genericName":  "Calcium Vitamin D3 SR",
+        "brandPrice":  156,
+        "genericPrice":  31,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Supplements"
+    },
+    {
+        "brandName":  "Thyronorm SR",
+        "genericName":  "Levothyroxine SR",
+        "brandPrice":  176,
+        "genericPrice":  25,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Thyroid"
+    },
+    {
+        "brandName":  "Montek SR",
+        "genericName":  "Montelukast SR",
+        "brandPrice":  186,
+        "genericPrice":  34,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Respiratory"
+    },
+    {
+        "brandName":  "Asthalin SR",
+        "genericName":  "Salbutamol SR",
+        "brandPrice":  141,
+        "genericPrice":  29,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Respiratory"
+    },
+    {
+        "brandName":  "Lasix SR",
+        "genericName":  "Furosemide SR",
+        "brandPrice":  59,
+        "genericPrice":  12,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Cardiac"
+    },
+    {
+        "brandName":  "Crocin DS",
+        "genericName":  "Paracetamol DS",
+        "brandPrice":  69,
+        "genericPrice":  16,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Pain Relief"
+    },
+    {
+        "brandName":  "Dolo DS",
+        "genericName":  "Paracetamol DS",
+        "brandPrice":  54,
+        "genericPrice":  13,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Pain Relief"
+    },
+    {
+        "brandName":  "Calpol DS",
+        "genericName":  "Paracetamol DS",
+        "brandPrice":  66,
+        "genericPrice":  15,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Pain Relief"
+    },
+    {
+        "brandName":  "Combiflam DS",
+        "genericName":  "Ibuprofen Paracetamol DS",
+        "brandPrice":  89,
+        "genericPrice":  20,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Pain Relief"
+    },
+    {
+        "brandName":  "Brufen DS",
+        "genericName":  "Ibuprofen DS",
+        "brandPrice":  79,
+        "genericPrice":  18,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Pain Relief"
+    },
+    {
+        "brandName":  "Azithral DS",
+        "genericName":  "Azithromycin DS",
+        "brandPrice":  214,
+        "genericPrice":  40,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Antibiotic"
+    },
+    {
+        "brandName":  "Augmentin DS",
+        "genericName":  "Amoxicillin Clavulanate DS",
+        "brandPrice":  304,
+        "genericPrice":  53,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Antibiotic"
+    },
+    {
+        "brandName":  "Allegra DS",
+        "genericName":  "Fexofenadine DS",
+        "brandPrice":  199,
+        "genericPrice":  30,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Allergy"
+    },
+    {
+        "brandName":  "Cetrizine DS",
+        "genericName":  "Cetirizine DS",
+        "brandPrice":  84,
+        "genericPrice":  16,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Allergy"
+    },
+    {
+        "brandName":  "Omez DS",
+        "genericName":  "Omeprazole DS",
+        "brandPrice":  109,
+        "genericPrice":  20,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Gastric"
+    },
+    {
+        "brandName":  "Pantop DS",
+        "genericName":  "Pantoprazole DS",
+        "brandPrice":  119,
+        "genericPrice":  22,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Gastric"
+    },
+    {
+        "brandName":  "Glycomet DS",
+        "genericName":  "Metformin DS",
+        "brandPrice":  134,
+        "genericPrice":  22,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Diabetes"
+    },
+    {
+        "brandName":  "Telma DS",
+        "genericName":  "Telmisartan DS",
+        "brandPrice":  219,
+        "genericPrice":  33,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Blood Pressure"
+    },
+    {
+        "brandName":  "Ecosprin DS",
+        "genericName":  "Aspirin DS",
+        "brandPrice":  79,
+        "genericPrice":  14,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Cardiac"
+    },
+    {
+        "brandName":  "Atorva DS",
+        "genericName":  "Atorvastatin DS",
+        "brandPrice":  234,
+        "genericPrice":  36,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Cardiac"
+    },
+    {
+        "brandName":  "Zincovit DS",
+        "genericName":  "Zinc Multivitamin DS",
+        "brandPrice":  169,
+        "genericPrice":  38,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Vitamins"
+    },
+    {
+        "brandName":  "Becosules DS",
+        "genericName":  "Vitamin B Complex DS",
+        "brandPrice":  134,
+        "genericPrice":  30,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Vitamins"
+    },
+    {
+        "brandName":  "Volini DS",
+        "genericName":  "Diclofenac Gel DS",
+        "brandPrice":  204,
+        "genericPrice":  43,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Pain Relief"
+    },
+    {
+        "brandName":  "Benadryl DS",
+        "genericName":  "Diphenhydramine DS",
+        "brandPrice":  119,
+        "genericPrice":  23,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Cough Cold"
+    },
+    {
+        "brandName":  "Digene DS",
+        "genericName":  "Antacid DS",
+        "brandPrice":  109,
+        "genericPrice":  26,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Gastric"
+    },
+    {
+        "brandName":  "Aciloc DS",
+        "genericName":  "Ranitidine DS",
+        "brandPrice":  94,
+        "genericPrice":  19,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Gastric"
+    },
+    {
+        "brandName":  "Shelcal DS",
+        "genericName":  "Calcium Vitamin D3 DS",
+        "brandPrice":  159,
+        "genericPrice":  32,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Supplements"
+    },
+    {
+        "brandName":  "Thyronorm DS",
+        "genericName":  "Levothyroxine DS",
+        "brandPrice":  179,
+        "genericPrice":  26,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Thyroid"
+    },
+    {
+        "brandName":  "Montek DS",
+        "genericName":  "Montelukast DS",
+        "brandPrice":  189,
+        "genericPrice":  35,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Respiratory"
+    },
+    {
+        "brandName":  "Asthalin DS",
+        "genericName":  "Salbutamol DS",
+        "brandPrice":  144,
+        "genericPrice":  30,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Respiratory"
+    },
+    {
+        "brandName":  "Lasix DS",
+        "genericName":  "Furosemide DS",
+        "brandPrice":  62,
+        "genericPrice":  13,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Cardiac"
+    },
+    {
+        "brandName":  "Crocin Plus",
+        "genericName":  "Paracetamol Plus",
+        "brandPrice":  72,
+        "genericPrice":  17,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Pain Relief"
+    },
+    {
+        "brandName":  "Dolo Plus",
+        "genericName":  "Paracetamol Plus",
+        "brandPrice":  57,
+        "genericPrice":  14,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Pain Relief"
+    },
+    {
+        "brandName":  "Calpol Plus",
+        "genericName":  "Paracetamol Plus",
+        "brandPrice":  69,
+        "genericPrice":  16,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Pain Relief"
+    },
+    {
+        "brandName":  "Combiflam Plus",
+        "genericName":  "Ibuprofen Paracetamol Plus",
+        "brandPrice":  92,
+        "genericPrice":  21,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Pain Relief"
+    },
+    {
+        "brandName":  "Brufen Plus",
+        "genericName":  "Ibuprofen Plus",
+        "brandPrice":  82,
+        "genericPrice":  19,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Pain Relief"
+    },
+    {
+        "brandName":  "Azithral Plus",
+        "genericName":  "Azithromycin Plus",
+        "brandPrice":  217,
+        "genericPrice":  41,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Antibiotic"
+    },
+    {
+        "brandName":  "Augmentin Plus",
+        "genericName":  "Amoxicillin Clavulanate Plus",
+        "brandPrice":  307,
+        "genericPrice":  54,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Antibiotic"
+    },
+    {
+        "brandName":  "Allegra Plus",
+        "genericName":  "Fexofenadine Plus",
+        "brandPrice":  202,
+        "genericPrice":  31,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Allergy"
+    },
+    {
+        "brandName":  "Cetrizine Plus",
+        "genericName":  "Cetirizine Plus",
+        "brandPrice":  87,
+        "genericPrice":  17,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Allergy"
+    },
+    {
+        "brandName":  "Omez Plus",
+        "genericName":  "Omeprazole Plus",
+        "brandPrice":  112,
+        "genericPrice":  21,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Gastric"
+    },
+    {
+        "brandName":  "Pantop Plus",
+        "genericName":  "Pantoprazole Plus",
+        "brandPrice":  122,
+        "genericPrice":  23,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Gastric"
+    },
+    {
+        "brandName":  "Glycomet Plus",
+        "genericName":  "Metformin Plus",
+        "brandPrice":  137,
+        "genericPrice":  23,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Diabetes"
+    },
+    {
+        "brandName":  "Telma Plus",
+        "genericName":  "Telmisartan Plus",
+        "brandPrice":  222,
+        "genericPrice":  34,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Blood Pressure"
+    },
+    {
+        "brandName":  "Ecosprin Plus",
+        "genericName":  "Aspirin Plus",
+        "brandPrice":  82,
+        "genericPrice":  15,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Cardiac"
+    },
+    {
+        "brandName":  "Atorva Plus",
+        "genericName":  "Atorvastatin Plus",
+        "brandPrice":  237,
+        "genericPrice":  37,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Cardiac"
+    },
+    {
+        "brandName":  "Zincovit Plus",
+        "genericName":  "Zinc Multivitamin Plus",
+        "brandPrice":  172,
+        "genericPrice":  39,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Vitamins"
+    },
+    {
+        "brandName":  "Becosules Plus",
+        "genericName":  "Vitamin B Complex Plus",
+        "brandPrice":  137,
+        "genericPrice":  31,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Vitamins"
+    },
+    {
+        "brandName":  "Volini Plus",
+        "genericName":  "Diclofenac Gel Plus",
+        "brandPrice":  207,
+        "genericPrice":  44,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Pain Relief"
+    },
+    {
+        "brandName":  "Benadryl Plus",
+        "genericName":  "Diphenhydramine Plus",
+        "brandPrice":  122,
+        "genericPrice":  24,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Cough Cold"
+    },
+    {
+        "brandName":  "Digene Plus",
+        "genericName":  "Antacid Plus",
+        "brandPrice":  112,
+        "genericPrice":  27,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Gastric"
+    },
+    {
+        "brandName":  "Aciloc Plus",
+        "genericName":  "Ranitidine Plus",
+        "brandPrice":  97,
+        "genericPrice":  20,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Gastric"
+    },
+    {
+        "brandName":  "Shelcal Plus",
+        "genericName":  "Calcium Vitamin D3 Plus",
+        "brandPrice":  162,
+        "genericPrice":  33,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Supplements"
+    },
+    {
+        "brandName":  "Thyronorm Plus",
+        "genericName":  "Levothyroxine Plus",
+        "brandPrice":  182,
+        "genericPrice":  27,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Thyroid"
+    },
+    {
+        "brandName":  "Montek Plus",
+        "genericName":  "Montelukast Plus",
+        "brandPrice":  192,
+        "genericPrice":  36,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Respiratory"
+    },
+    {
+        "brandName":  "Asthalin Plus",
+        "genericName":  "Salbutamol Plus",
+        "brandPrice":  147,
+        "genericPrice":  31,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Respiratory"
+    },
+    {
+        "brandName":  "Lasix Plus",
+        "genericName":  "Furosemide Plus",
+        "brandPrice":  65,
+        "genericPrice":  14,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Cardiac"
+    },
+    {
+        "brandName":  "Crocin Suspension",
+        "genericName":  "Paracetamol Suspension",
+        "brandPrice":  75,
+        "genericPrice":  18,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Pain Relief"
+    },
+    {
+        "brandName":  "Dolo Suspension",
+        "genericName":  "Paracetamol Suspension",
+        "brandPrice":  60,
+        "genericPrice":  15,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Pain Relief"
+    },
+    {
+        "brandName":  "Calpol Suspension",
+        "genericName":  "Paracetamol Suspension",
+        "brandPrice":  72,
+        "genericPrice":  17,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Pain Relief"
+    },
+    {
+        "brandName":  "Combiflam Suspension",
+        "genericName":  "Ibuprofen Paracetamol Suspension",
+        "brandPrice":  95,
+        "genericPrice":  22,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Pain Relief"
+    },
+    {
+        "brandName":  "Brufen Suspension",
+        "genericName":  "Ibuprofen Suspension",
+        "brandPrice":  85,
+        "genericPrice":  20,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Pain Relief"
+    },
+    {
+        "brandName":  "Azithral Suspension",
+        "genericName":  "Azithromycin Suspension",
+        "brandPrice":  220,
+        "genericPrice":  42,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Antibiotic"
+    },
+    {
+        "brandName":  "Augmentin Suspension",
+        "genericName":  "Amoxicillin Clavulanate Suspension",
+        "brandPrice":  310,
+        "genericPrice":  55,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Antibiotic"
+    },
+    {
+        "brandName":  "Allegra Suspension",
+        "genericName":  "Fexofenadine Suspension",
+        "brandPrice":  205,
+        "genericPrice":  32,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Allergy"
+    },
+    {
+        "brandName":  "Cetrizine Suspension",
+        "genericName":  "Cetirizine Suspension",
+        "brandPrice":  90,
+        "genericPrice":  18,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Allergy"
+    },
+    {
+        "brandName":  "Omez Suspension",
+        "genericName":  "Omeprazole Suspension",
+        "brandPrice":  115,
+        "genericPrice":  22,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Gastric"
+    },
+    {
+        "brandName":  "Pantop Suspension",
+        "genericName":  "Pantoprazole Suspension",
+        "brandPrice":  125,
+        "genericPrice":  24,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Gastric"
+    },
+    {
+        "brandName":  "Glycomet Suspension",
+        "genericName":  "Metformin Suspension",
+        "brandPrice":  140,
+        "genericPrice":  24,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Diabetes"
+    },
+    {
+        "brandName":  "Telma Suspension",
+        "genericName":  "Telmisartan Suspension",
+        "brandPrice":  225,
+        "genericPrice":  35,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Blood Pressure"
+    },
+    {
+        "brandName":  "Ecosprin Suspension",
+        "genericName":  "Aspirin Suspension",
+        "brandPrice":  85,
+        "genericPrice":  16,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Cardiac"
+    },
+    {
+        "brandName":  "Atorva Suspension",
+        "genericName":  "Atorvastatin Suspension",
+        "brandPrice":  240,
+        "genericPrice":  38,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Cardiac"
+    },
+    {
+        "brandName":  "Zincovit Suspension",
+        "genericName":  "Zinc Multivitamin Suspension",
+        "brandPrice":  175,
+        "genericPrice":  40,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Vitamins"
+    },
+    {
+        "brandName":  "Becosules Suspension",
+        "genericName":  "Vitamin B Complex Suspension",
+        "brandPrice":  140,
+        "genericPrice":  32,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Vitamins"
+    },
+    {
+        "brandName":  "Volini Suspension",
+        "genericName":  "Diclofenac Gel Suspension",
+        "brandPrice":  210,
+        "genericPrice":  45,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Pain Relief"
+    },
+    {
+        "brandName":  "Benadryl Suspension",
+        "genericName":  "Diphenhydramine Suspension",
+        "brandPrice":  125,
+        "genericPrice":  25,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Cough Cold"
+    },
+    {
+        "brandName":  "Digene Suspension",
+        "genericName":  "Antacid Suspension",
+        "brandPrice":  115,
+        "genericPrice":  28,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Gastric"
+    },
+    {
+        "brandName":  "Aciloc Suspension",
+        "genericName":  "Ranitidine Suspension",
+        "brandPrice":  100,
+        "genericPrice":  21,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Gastric"
+    },
+    {
+        "brandName":  "Shelcal Suspension",
+        "genericName":  "Calcium Vitamin D3 Suspension",
+        "brandPrice":  165,
+        "genericPrice":  34,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Supplements"
+    },
+    {
+        "brandName":  "Thyronorm Suspension",
+        "genericName":  "Levothyroxine Suspension",
+        "brandPrice":  185,
+        "genericPrice":  28,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Thyroid"
+    },
+    {
+        "brandName":  "Montek Suspension",
+        "genericName":  "Montelukast Suspension",
+        "brandPrice":  195,
+        "genericPrice":  37,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Respiratory"
+    },
+    {
+        "brandName":  "Asthalin Suspension",
+        "genericName":  "Salbutamol Suspension",
+        "brandPrice":  150,
+        "genericPrice":  32,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Respiratory"
+    },
+    {
+        "brandName":  "Lasix Suspension",
+        "genericName":  "Furosemide Suspension",
+        "brandPrice":  68,
+        "genericPrice":  15,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Cardiac"
+    },
+    {
+        "brandName":  "Crocin Tablet",
+        "genericName":  "Paracetamol Tablet",
+        "brandPrice":  78,
+        "genericPrice":  19,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Pain Relief"
+    },
+    {
+        "brandName":  "Dolo Tablet",
+        "genericName":  "Paracetamol Tablet",
+        "brandPrice":  63,
+        "genericPrice":  16,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Pain Relief"
+    },
+    {
+        "brandName":  "Calpol Tablet",
+        "genericName":  "Paracetamol Tablet",
+        "brandPrice":  75,
+        "genericPrice":  18,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Pain Relief"
+    },
+    {
+        "brandName":  "Combiflam Tablet",
+        "genericName":  "Ibuprofen Paracetamol Tablet",
+        "brandPrice":  98,
+        "genericPrice":  23,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Pain Relief"
+    },
+    {
+        "brandName":  "Brufen Tablet",
+        "genericName":  "Ibuprofen Tablet",
+        "brandPrice":  88,
+        "genericPrice":  21,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Pain Relief"
+    },
+    {
+        "brandName":  "Azithral Tablet",
+        "genericName":  "Azithromycin Tablet",
+        "brandPrice":  223,
+        "genericPrice":  43,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Antibiotic"
+    },
+    {
+        "brandName":  "Augmentin Tablet",
+        "genericName":  "Amoxicillin Clavulanate Tablet",
+        "brandPrice":  313,
+        "genericPrice":  56,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Antibiotic"
+    },
+    {
+        "brandName":  "Allegra Tablet",
+        "genericName":  "Fexofenadine Tablet",
+        "brandPrice":  208,
+        "genericPrice":  33,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Allergy"
+    },
+    {
+        "brandName":  "Cetrizine Tablet",
+        "genericName":  "Cetirizine Tablet",
+        "brandPrice":  93,
+        "genericPrice":  19,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Allergy"
+    },
+    {
+        "brandName":  "Omez Tablet",
+        "genericName":  "Omeprazole Tablet",
+        "brandPrice":  118,
+        "genericPrice":  23,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Gastric"
+    },
+    {
+        "brandName":  "Pantop Tablet",
+        "genericName":  "Pantoprazole Tablet",
+        "brandPrice":  128,
+        "genericPrice":  25,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Gastric"
+    },
+    {
+        "brandName":  "Glycomet Tablet",
+        "genericName":  "Metformin Tablet",
+        "brandPrice":  143,
+        "genericPrice":  25,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Diabetes"
+    },
+    {
+        "brandName":  "Telma Tablet",
+        "genericName":  "Telmisartan Tablet",
+        "brandPrice":  228,
+        "genericPrice":  36,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Blood Pressure"
+    },
+    {
+        "brandName":  "Ecosprin Tablet",
+        "genericName":  "Aspirin Tablet",
+        "brandPrice":  88,
+        "genericPrice":  17,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Cardiac"
+    },
+    {
+        "brandName":  "Atorva Tablet",
+        "genericName":  "Atorvastatin Tablet",
+        "brandPrice":  243,
+        "genericPrice":  39,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Cardiac"
+    },
+    {
+        "brandName":  "Zincovit Tablet",
+        "genericName":  "Zinc Multivitamin Tablet",
+        "brandPrice":  178,
+        "genericPrice":  41,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Vitamins"
+    },
+    {
+        "brandName":  "Becosules Tablet",
+        "genericName":  "Vitamin B Complex Tablet",
+        "brandPrice":  143,
+        "genericPrice":  33,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Vitamins"
+    },
+    {
+        "brandName":  "Volini Tablet",
+        "genericName":  "Diclofenac Gel Tablet",
+        "brandPrice":  213,
+        "genericPrice":  46,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Pain Relief"
+    },
+    {
+        "brandName":  "Benadryl Tablet",
+        "genericName":  "Diphenhydramine Tablet",
+        "brandPrice":  128,
+        "genericPrice":  26,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Cough Cold"
+    },
+    {
+        "brandName":  "Digene Tablet",
+        "genericName":  "Antacid Tablet",
+        "brandPrice":  118,
+        "genericPrice":  29,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Gastric"
+    },
+    {
+        "brandName":  "Aciloc Tablet",
+        "genericName":  "Ranitidine Tablet",
+        "brandPrice":  103,
+        "genericPrice":  22,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Gastric"
+    },
+    {
+        "brandName":  "Shelcal Tablet",
+        "genericName":  "Calcium Vitamin D3 Tablet",
+        "brandPrice":  168,
+        "genericPrice":  35,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Supplements"
+    },
+    {
+        "brandName":  "Thyronorm Tablet",
+        "genericName":  "Levothyroxine Tablet",
+        "brandPrice":  188,
+        "genericPrice":  29,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Thyroid"
+    },
+    {
+        "brandName":  "Montek Tablet",
+        "genericName":  "Montelukast Tablet",
+        "brandPrice":  198,
+        "genericPrice":  38,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Respiratory"
+    },
+    {
+        "brandName":  "Asthalin Tablet",
+        "genericName":  "Salbutamol Tablet",
+        "brandPrice":  153,
+        "genericPrice":  33,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Respiratory"
+    },
+    {
+        "brandName":  "Lasix Tablet",
+        "genericName":  "Furosemide Tablet",
+        "brandPrice":  71,
+        "genericPrice":  16,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Cardiac"
+    },
+    {
+        "brandName":  "Crocin Capsule",
+        "genericName":  "Paracetamol Capsule",
+        "brandPrice":  81,
+        "genericPrice":  20,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Pain Relief"
+    },
+    {
+        "brandName":  "Dolo Capsule",
+        "genericName":  "Paracetamol Capsule",
+        "brandPrice":  66,
+        "genericPrice":  17,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Pain Relief"
+    },
+    {
+        "brandName":  "Calpol Capsule",
+        "genericName":  "Paracetamol Capsule",
+        "brandPrice":  78,
+        "genericPrice":  19,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Pain Relief"
+    },
+    {
+        "brandName":  "Combiflam Capsule",
+        "genericName":  "Ibuprofen Paracetamol Capsule",
+        "brandPrice":  101,
+        "genericPrice":  24,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Pain Relief"
+    },
+    {
+        "brandName":  "Brufen Capsule",
+        "genericName":  "Ibuprofen Capsule",
+        "brandPrice":  91,
+        "genericPrice":  22,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Pain Relief"
+    },
+    {
+        "brandName":  "Azithral Capsule",
+        "genericName":  "Azithromycin Capsule",
+        "brandPrice":  226,
+        "genericPrice":  44,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Antibiotic"
+    },
+    {
+        "brandName":  "Augmentin Capsule",
+        "genericName":  "Amoxicillin Clavulanate Capsule",
+        "brandPrice":  316,
+        "genericPrice":  57,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Antibiotic"
+    },
+    {
+        "brandName":  "Allegra Capsule",
+        "genericName":  "Fexofenadine Capsule",
+        "brandPrice":  211,
+        "genericPrice":  34,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Allergy"
+    },
+    {
+        "brandName":  "Cetrizine Capsule",
+        "genericName":  "Cetirizine Capsule",
+        "brandPrice":  96,
+        "genericPrice":  20,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Allergy"
+    },
+    {
+        "brandName":  "Omez Capsule",
+        "genericName":  "Omeprazole Capsule",
+        "brandPrice":  121,
+        "genericPrice":  24,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Gastric"
+    },
+    {
+        "brandName":  "Pantop Capsule",
+        "genericName":  "Pantoprazole Capsule",
+        "brandPrice":  131,
+        "genericPrice":  26,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Gastric"
+    },
+    {
+        "brandName":  "Glycomet Capsule",
+        "genericName":  "Metformin Capsule",
+        "brandPrice":  146,
+        "genericPrice":  26,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Diabetes"
+    },
+    {
+        "brandName":  "Telma Capsule",
+        "genericName":  "Telmisartan Capsule",
+        "brandPrice":  231,
+        "genericPrice":  37,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Blood Pressure"
+    },
+    {
+        "brandName":  "Ecosprin Capsule",
+        "genericName":  "Aspirin Capsule",
+        "brandPrice":  91,
+        "genericPrice":  18,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Cardiac"
+    },
+    {
+        "brandName":  "Atorva Capsule",
+        "genericName":  "Atorvastatin Capsule",
+        "brandPrice":  246,
+        "genericPrice":  40,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Cardiac"
+    },
+    {
+        "brandName":  "Zincovit Capsule",
+        "genericName":  "Zinc Multivitamin Capsule",
+        "brandPrice":  181,
+        "genericPrice":  42,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Vitamins"
+    },
+    {
+        "brandName":  "Becosules Capsule",
+        "genericName":  "Vitamin B Complex Capsule",
+        "brandPrice":  146,
+        "genericPrice":  34,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Vitamins"
+    },
+    {
+        "brandName":  "Volini Capsule",
+        "genericName":  "Diclofenac Gel Capsule",
+        "brandPrice":  216,
+        "genericPrice":  47,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Pain Relief"
+    },
+    {
+        "brandName":  "Benadryl Capsule",
+        "genericName":  "Diphenhydramine Capsule",
+        "brandPrice":  131,
+        "genericPrice":  27,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Cough Cold"
+    },
+    {
+        "brandName":  "Digene Capsule",
+        "genericName":  "Antacid Capsule",
+        "brandPrice":  121,
+        "genericPrice":  30,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Gastric"
+    },
+    {
+        "brandName":  "Aciloc Capsule",
+        "genericName":  "Ranitidine Capsule",
+        "brandPrice":  106,
+        "genericPrice":  23,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Gastric"
+    },
+    {
+        "brandName":  "Shelcal Capsule",
+        "genericName":  "Calcium Vitamin D3 Capsule",
+        "brandPrice":  171,
+        "genericPrice":  36,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Supplements"
+    },
+    {
+        "brandName":  "Thyronorm Capsule",
+        "genericName":  "Levothyroxine Capsule",
+        "brandPrice":  191,
+        "genericPrice":  30,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Thyroid"
+    },
+    {
+        "brandName":  "Montek Capsule",
+        "genericName":  "Montelukast Capsule",
+        "brandPrice":  201,
+        "genericPrice":  39,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Respiratory"
+    },
+    {
+        "brandName":  "Asthalin Capsule",
+        "genericName":  "Salbutamol Capsule",
+        "brandPrice":  156,
+        "genericPrice":  34,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Respiratory"
+    },
+    {
+        "brandName":  "Lasix Capsule",
+        "genericName":  "Furosemide Capsule",
+        "brandPrice":  74,
+        "genericPrice":  17,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Cardiac"
+    },
+    {
+        "brandName":  "Crocin Syrup",
+        "genericName":  "Paracetamol Syrup",
+        "brandPrice":  84,
+        "genericPrice":  21,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Pain Relief"
+    },
+    {
+        "brandName":  "Dolo Syrup",
+        "genericName":  "Paracetamol Syrup",
+        "brandPrice":  69,
+        "genericPrice":  18,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Pain Relief"
+    },
+    {
+        "brandName":  "Calpol Syrup",
+        "genericName":  "Paracetamol Syrup",
+        "brandPrice":  81,
+        "genericPrice":  20,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Pain Relief"
+    },
+    {
+        "brandName":  "Combiflam Syrup",
+        "genericName":  "Ibuprofen Paracetamol Syrup",
+        "brandPrice":  104,
+        "genericPrice":  25,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Pain Relief"
+    },
+    {
+        "brandName":  "Brufen Syrup",
+        "genericName":  "Ibuprofen Syrup",
+        "brandPrice":  94,
+        "genericPrice":  23,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Pain Relief"
+    },
+    {
+        "brandName":  "Azithral Syrup",
+        "genericName":  "Azithromycin Syrup",
+        "brandPrice":  229,
+        "genericPrice":  45,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Antibiotic"
+    },
+    {
+        "brandName":  "Augmentin Syrup",
+        "genericName":  "Amoxicillin Clavulanate Syrup",
+        "brandPrice":  319,
+        "genericPrice":  58,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Antibiotic"
+    },
+    {
+        "brandName":  "Allegra Syrup",
+        "genericName":  "Fexofenadine Syrup",
+        "brandPrice":  214,
+        "genericPrice":  35,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Allergy"
+    },
+    {
+        "brandName":  "Cetrizine Syrup",
+        "genericName":  "Cetirizine Syrup",
+        "brandPrice":  99,
+        "genericPrice":  21,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Allergy"
+    },
+    {
+        "brandName":  "Omez Syrup",
+        "genericName":  "Omeprazole Syrup",
+        "brandPrice":  124,
+        "genericPrice":  25,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Gastric"
+    },
+    {
+        "brandName":  "Pantop Syrup",
+        "genericName":  "Pantoprazole Syrup",
+        "brandPrice":  134,
+        "genericPrice":  27,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Gastric"
+    },
+    {
+        "brandName":  "Glycomet Syrup",
+        "genericName":  "Metformin Syrup",
+        "brandPrice":  149,
+        "genericPrice":  27,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Diabetes"
+    },
+    {
+        "brandName":  "Telma Syrup",
+        "genericName":  "Telmisartan Syrup",
+        "brandPrice":  234,
+        "genericPrice":  38,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Blood Pressure"
+    },
+    {
+        "brandName":  "Ecosprin Syrup",
+        "genericName":  "Aspirin Syrup",
+        "brandPrice":  94,
+        "genericPrice":  19,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Cardiac"
+    },
+    {
+        "brandName":  "Atorva Syrup",
+        "genericName":  "Atorvastatin Syrup",
+        "brandPrice":  249,
+        "genericPrice":  41,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Cardiac"
+    },
+    {
+        "brandName":  "Zincovit Syrup",
+        "genericName":  "Zinc Multivitamin Syrup",
+        "brandPrice":  184,
+        "genericPrice":  43,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Vitamins"
+    },
+    {
+        "brandName":  "Becosules Syrup",
+        "genericName":  "Vitamin B Complex Syrup",
+        "brandPrice":  149,
+        "genericPrice":  35,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Vitamins"
+    },
+    {
+        "brandName":  "Volini Syrup",
+        "genericName":  "Diclofenac Gel Syrup",
+        "brandPrice":  219,
+        "genericPrice":  48,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Pain Relief"
+    },
+    {
+        "brandName":  "Benadryl Syrup",
+        "genericName":  "Diphenhydramine Syrup",
+        "brandPrice":  134,
+        "genericPrice":  28,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Cough Cold"
+    },
+    {
+        "brandName":  "Digene Syrup",
+        "genericName":  "Antacid Syrup",
+        "brandPrice":  124,
+        "genericPrice":  31,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Gastric"
+    },
+    {
+        "brandName":  "Aciloc Syrup",
+        "genericName":  "Ranitidine Syrup",
+        "brandPrice":  109,
+        "genericPrice":  24,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Gastric"
+    },
+    {
+        "brandName":  "Shelcal Syrup",
+        "genericName":  "Calcium Vitamin D3 Syrup",
+        "brandPrice":  174,
+        "genericPrice":  37,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Supplements"
+    },
+    {
+        "brandName":  "Thyronorm Syrup",
+        "genericName":  "Levothyroxine Syrup",
+        "brandPrice":  194,
+        "genericPrice":  31,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Thyroid"
+    },
+    {
+        "brandName":  "Montek Syrup",
+        "genericName":  "Montelukast Syrup",
+        "brandPrice":  204,
+        "genericPrice":  40,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Respiratory"
+    },
+    {
+        "brandName":  "Asthalin Syrup",
+        "genericName":  "Salbutamol Syrup",
+        "brandPrice":  159,
+        "genericPrice":  35,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Respiratory"
+    },
+    {
+        "brandName":  "Lasix Syrup",
+        "genericName":  "Furosemide Syrup",
+        "brandPrice":  77,
+        "genericPrice":  18,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Cardiac"
+    },
+    {
+        "brandName":  "Crocin Injection",
+        "genericName":  "Paracetamol Injection",
+        "brandPrice":  87,
+        "genericPrice":  22,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Pain Relief"
+    },
+    {
+        "brandName":  "Dolo Injection",
+        "genericName":  "Paracetamol Injection",
+        "brandPrice":  72,
+        "genericPrice":  19,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Pain Relief"
+    },
+    {
+        "brandName":  "Calpol Injection",
+        "genericName":  "Paracetamol Injection",
+        "brandPrice":  84,
+        "genericPrice":  21,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Pain Relief"
+    },
+    {
+        "brandName":  "Combiflam Injection",
+        "genericName":  "Ibuprofen Paracetamol Injection",
+        "brandPrice":  107,
+        "genericPrice":  26,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Pain Relief"
+    },
+    {
+        "brandName":  "Brufen Injection",
+        "genericName":  "Ibuprofen Injection",
+        "brandPrice":  97,
+        "genericPrice":  24,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Pain Relief"
+    },
+    {
+        "brandName":  "Azithral Injection",
+        "genericName":  "Azithromycin Injection",
+        "brandPrice":  232,
+        "genericPrice":  46,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Antibiotic"
+    },
+    {
+        "brandName":  "Augmentin Injection",
+        "genericName":  "Amoxicillin Clavulanate Injection",
+        "brandPrice":  322,
+        "genericPrice":  59,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Antibiotic"
+    },
+    {
+        "brandName":  "Allegra Injection",
+        "genericName":  "Fexofenadine Injection",
+        "brandPrice":  217,
+        "genericPrice":  36,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Allergy"
+    },
+    {
+        "brandName":  "Cetrizine Injection",
+        "genericName":  "Cetirizine Injection",
+        "brandPrice":  102,
+        "genericPrice":  22,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Allergy"
+    },
+    {
+        "brandName":  "Omez Injection",
+        "genericName":  "Omeprazole Injection",
+        "brandPrice":  127,
+        "genericPrice":  26,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Gastric"
+    },
+    {
+        "brandName":  "Pantop Injection",
+        "genericName":  "Pantoprazole Injection",
+        "brandPrice":  137,
+        "genericPrice":  28,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Gastric"
+    },
+    {
+        "brandName":  "Glycomet Injection",
+        "genericName":  "Metformin Injection",
+        "brandPrice":  152,
+        "genericPrice":  28,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Diabetes"
+    },
+    {
+        "brandName":  "Telma Injection",
+        "genericName":  "Telmisartan Injection",
+        "brandPrice":  237,
+        "genericPrice":  39,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Blood Pressure"
+    },
+    {
+        "brandName":  "Ecosprin Injection",
+        "genericName":  "Aspirin Injection",
+        "brandPrice":  97,
+        "genericPrice":  20,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Cardiac"
+    },
+    {
+        "brandName":  "Atorva Injection",
+        "genericName":  "Atorvastatin Injection",
+        "brandPrice":  252,
+        "genericPrice":  42,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Cardiac"
+    },
+    {
+        "brandName":  "Zincovit Injection",
+        "genericName":  "Zinc Multivitamin Injection",
+        "brandPrice":  187,
+        "genericPrice":  44,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Vitamins"
+    },
+    {
+        "brandName":  "Becosules Injection",
+        "genericName":  "Vitamin B Complex Injection",
+        "brandPrice":  152,
+        "genericPrice":  36,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Vitamins"
+    },
+    {
+        "brandName":  "Volini Injection",
+        "genericName":  "Diclofenac Gel Injection",
+        "brandPrice":  222,
+        "genericPrice":  49,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Pain Relief"
+    },
+    {
+        "brandName":  "Benadryl Injection",
+        "genericName":  "Diphenhydramine Injection",
+        "brandPrice":  137,
+        "genericPrice":  29,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Cough Cold"
+    },
+    {
+        "brandName":  "Digene Injection",
+        "genericName":  "Antacid Injection",
+        "brandPrice":  127,
+        "genericPrice":  32,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Gastric"
+    },
+    {
+        "brandName":  "Aciloc Injection",
+        "genericName":  "Ranitidine Injection",
+        "brandPrice":  112,
+        "genericPrice":  25,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Gastric"
+    },
+    {
+        "brandName":  "Shelcal Injection",
+        "genericName":  "Calcium Vitamin D3 Injection",
+        "brandPrice":  177,
+        "genericPrice":  38,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Supplements"
+    },
+    {
+        "brandName":  "Thyronorm Injection",
+        "genericName":  "Levothyroxine Injection",
+        "brandPrice":  197,
+        "genericPrice":  32,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Thyroid"
+    },
+    {
+        "brandName":  "Montek Injection",
+        "genericName":  "Montelukast Injection",
+        "brandPrice":  207,
+        "genericPrice":  41,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Respiratory"
+    },
+    {
+        "brandName":  "Asthalin Injection",
+        "genericName":  "Salbutamol Injection",
+        "brandPrice":  162,
+        "genericPrice":  36,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Respiratory"
+    },
+    {
+        "brandName":  "Lasix Injection",
+        "genericName":  "Furosemide Injection",
+        "brandPrice":  80,
+        "genericPrice":  19,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Cardiac"
+    },
+    {
+        "brandName":  "Crocin Gel",
+        "genericName":  "Paracetamol Gel",
+        "brandPrice":  90,
+        "genericPrice":  23,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Pain Relief"
+    },
+    {
+        "brandName":  "Dolo Gel",
+        "genericName":  "Paracetamol Gel",
+        "brandPrice":  75,
+        "genericPrice":  20,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Pain Relief"
+    },
+    {
+        "brandName":  "Calpol Gel",
+        "genericName":  "Paracetamol Gel",
+        "brandPrice":  87,
+        "genericPrice":  22,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Pain Relief"
+    },
+    {
+        "brandName":  "Combiflam Gel",
+        "genericName":  "Ibuprofen Paracetamol Gel",
+        "brandPrice":  110,
+        "genericPrice":  27,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Pain Relief"
+    },
+    {
+        "brandName":  "Brufen Gel",
+        "genericName":  "Ibuprofen Gel",
+        "brandPrice":  100,
+        "genericPrice":  25,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Pain Relief"
+    },
+    {
+        "brandName":  "Azithral Gel",
+        "genericName":  "Azithromycin Gel",
+        "brandPrice":  235,
+        "genericPrice":  47,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Antibiotic"
+    },
+    {
+        "brandName":  "Augmentin Gel",
+        "genericName":  "Amoxicillin Clavulanate Gel",
+        "brandPrice":  325,
+        "genericPrice":  60,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Antibiotic"
+    },
+    {
+        "brandName":  "Allegra Gel",
+        "genericName":  "Fexofenadine Gel",
+        "brandPrice":  220,
+        "genericPrice":  37,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Allergy"
+    },
+    {
+        "brandName":  "Cetrizine Gel",
+        "genericName":  "Cetirizine Gel",
+        "brandPrice":  105,
+        "genericPrice":  23,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Allergy"
+    },
+    {
+        "brandName":  "Omez Gel",
+        "genericName":  "Omeprazole Gel",
+        "brandPrice":  130,
+        "genericPrice":  27,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Gastric"
+    },
+    {
+        "brandName":  "Pantop Gel",
+        "genericName":  "Pantoprazole Gel",
+        "brandPrice":  140,
+        "genericPrice":  29,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Gastric"
+    },
+    {
+        "brandName":  "Glycomet Gel",
+        "genericName":  "Metformin Gel",
+        "brandPrice":  155,
+        "genericPrice":  29,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Diabetes"
+    },
+    {
+        "brandName":  "Telma Gel",
+        "genericName":  "Telmisartan Gel",
+        "brandPrice":  240,
+        "genericPrice":  40,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Blood Pressure"
+    },
+    {
+        "brandName":  "Ecosprin Gel",
+        "genericName":  "Aspirin Gel",
+        "brandPrice":  100,
+        "genericPrice":  21,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Cardiac"
+    },
+    {
+        "brandName":  "Atorva Gel",
+        "genericName":  "Atorvastatin Gel",
+        "brandPrice":  255,
+        "genericPrice":  43,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Cardiac"
+    },
+    {
+        "brandName":  "Zincovit Gel",
+        "genericName":  "Zinc Multivitamin Gel",
+        "brandPrice":  190,
+        "genericPrice":  45,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Vitamins"
+    },
+    {
+        "brandName":  "Becosules Gel",
+        "genericName":  "Vitamin B Complex Gel",
+        "brandPrice":  155,
+        "genericPrice":  37,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Vitamins"
+    },
+    {
+        "brandName":  "Volini Gel",
+        "genericName":  "Diclofenac Gel Gel",
+        "brandPrice":  225,
+        "genericPrice":  50,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Pain Relief"
+    },
+    {
+        "brandName":  "Benadryl Gel",
+        "genericName":  "Diphenhydramine Gel",
+        "brandPrice":  140,
+        "genericPrice":  30,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Cough Cold"
+    },
+    {
+        "brandName":  "Digene Gel",
+        "genericName":  "Antacid Gel",
+        "brandPrice":  130,
+        "genericPrice":  33,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Gastric"
+    },
+    {
+        "brandName":  "Aciloc Gel",
+        "genericName":  "Ranitidine Gel",
+        "brandPrice":  115,
+        "genericPrice":  26,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Gastric"
+    },
+    {
+        "brandName":  "Shelcal Gel",
+        "genericName":  "Calcium Vitamin D3 Gel",
+        "brandPrice":  180,
+        "genericPrice":  39,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Supplements"
+    },
+    {
+        "brandName":  "Thyronorm Gel",
+        "genericName":  "Levothyroxine Gel",
+        "brandPrice":  200,
+        "genericPrice":  33,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Thyroid"
+    },
+    {
+        "brandName":  "Montek Gel",
+        "genericName":  "Montelukast Gel",
+        "brandPrice":  210,
+        "genericPrice":  42,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Respiratory"
+    },
+    {
+        "brandName":  "Asthalin Gel",
+        "genericName":  "Salbutamol Gel",
+        "brandPrice":  165,
+        "genericPrice":  37,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Respiratory"
+    },
+    {
+        "brandName":  "Lasix Gel",
+        "genericName":  "Furosemide Gel",
+        "brandPrice":  83,
+        "genericPrice":  20,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Cardiac"
+    },
+    {
+        "brandName":  "Crocin Drops",
+        "genericName":  "Paracetamol Drops",
+        "brandPrice":  93,
+        "genericPrice":  24,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Pain Relief"
+    },
+    {
+        "brandName":  "Dolo Drops",
+        "genericName":  "Paracetamol Drops",
+        "brandPrice":  78,
+        "genericPrice":  21,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Pain Relief"
+    },
+    {
+        "brandName":  "Calpol Drops",
+        "genericName":  "Paracetamol Drops",
+        "brandPrice":  90,
+        "genericPrice":  23,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Pain Relief"
+    },
+    {
+        "brandName":  "Combiflam Drops",
+        "genericName":  "Ibuprofen Paracetamol Drops",
+        "brandPrice":  113,
+        "genericPrice":  28,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Pain Relief"
+    },
+    {
+        "brandName":  "Brufen Drops",
+        "genericName":  "Ibuprofen Drops",
+        "brandPrice":  103,
+        "genericPrice":  26,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Pain Relief"
+    },
+    {
+        "brandName":  "Azithral Drops",
+        "genericName":  "Azithromycin Drops",
+        "brandPrice":  238,
+        "genericPrice":  48,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Antibiotic"
+    },
+    {
+        "brandName":  "Augmentin Drops",
+        "genericName":  "Amoxicillin Clavulanate Drops",
+        "brandPrice":  328,
+        "genericPrice":  61,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Antibiotic"
+    },
+    {
+        "brandName":  "Allegra Drops",
+        "genericName":  "Fexofenadine Drops",
+        "brandPrice":  223,
+        "genericPrice":  38,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Allergy"
+    },
+    {
+        "brandName":  "Cetrizine Drops",
+        "genericName":  "Cetirizine Drops",
+        "brandPrice":  108,
+        "genericPrice":  24,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Allergy"
+    },
+    {
+        "brandName":  "Omez Drops",
+        "genericName":  "Omeprazole Drops",
+        "brandPrice":  133,
+        "genericPrice":  28,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Gastric"
+    },
+    {
+        "brandName":  "Pantop Drops",
+        "genericName":  "Pantoprazole Drops",
+        "brandPrice":  143,
+        "genericPrice":  30,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Gastric"
+    },
+    {
+        "brandName":  "Glycomet Drops",
+        "genericName":  "Metformin Drops",
+        "brandPrice":  158,
+        "genericPrice":  30,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Diabetes"
+    },
+    {
+        "brandName":  "Telma Drops",
+        "genericName":  "Telmisartan Drops",
+        "brandPrice":  243,
+        "genericPrice":  41,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Blood Pressure"
+    },
+    {
+        "brandName":  "Ecosprin Drops",
+        "genericName":  "Aspirin Drops",
+        "brandPrice":  103,
+        "genericPrice":  22,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Cardiac"
+    },
+    {
+        "brandName":  "Atorva Drops",
+        "genericName":  "Atorvastatin Drops",
+        "brandPrice":  258,
+        "genericPrice":  44,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Cardiac"
+    },
+    {
+        "brandName":  "Zincovit Drops",
+        "genericName":  "Zinc Multivitamin Drops",
+        "brandPrice":  193,
+        "genericPrice":  46,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Vitamins"
+    },
+    {
+        "brandName":  "Becosules Drops",
+        "genericName":  "Vitamin B Complex Drops",
+        "brandPrice":  158,
+        "genericPrice":  38,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Vitamins"
+    },
+    {
+        "brandName":  "Volini Drops",
+        "genericName":  "Diclofenac Gel Drops",
+        "brandPrice":  228,
+        "genericPrice":  51,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Pain Relief"
+    },
+    {
+        "brandName":  "Benadryl Drops",
+        "genericName":  "Diphenhydramine Drops",
+        "brandPrice":  143,
+        "genericPrice":  31,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Cough Cold"
+    },
+    {
+        "brandName":  "Digene Drops",
+        "genericName":  "Antacid Drops",
+        "brandPrice":  133,
+        "genericPrice":  34,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Gastric"
+    },
+    {
+        "brandName":  "Aciloc Drops",
+        "genericName":  "Ranitidine Drops",
+        "brandPrice":  118,
+        "genericPrice":  27,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Gastric"
+    },
+    {
+        "brandName":  "Shelcal Drops",
+        "genericName":  "Calcium Vitamin D3 Drops",
+        "brandPrice":  183,
+        "genericPrice":  40,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Supplements"
+    },
+    {
+        "brandName":  "Thyronorm Drops",
+        "genericName":  "Levothyroxine Drops",
+        "brandPrice":  203,
+        "genericPrice":  34,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Thyroid"
+    },
+    {
+        "brandName":  "Montek Drops",
+        "genericName":  "Montelukast Drops",
+        "brandPrice":  213,
+        "genericPrice":  43,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Respiratory"
+    },
+    {
+        "brandName":  "Asthalin Drops",
+        "genericName":  "Salbutamol Drops",
+        "brandPrice":  168,
+        "genericPrice":  38,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Respiratory"
+    },
+    {
+        "brandName":  "Lasix Drops",
+        "genericName":  "Furosemide Drops",
+        "brandPrice":  86,
+        "genericPrice":  21,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Cardiac"
+    },
+    {
+        "brandName":  "Crocin OD",
+        "genericName":  "Paracetamol OD",
+        "brandPrice":  96,
+        "genericPrice":  25,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Pain Relief"
+    },
+    {
+        "brandName":  "Dolo OD",
+        "genericName":  "Paracetamol OD",
+        "brandPrice":  81,
+        "genericPrice":  22,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Pain Relief"
+    },
+    {
+        "brandName":  "Calpol OD",
+        "genericName":  "Paracetamol OD",
+        "brandPrice":  93,
+        "genericPrice":  24,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Pain Relief"
+    },
+    {
+        "brandName":  "Combiflam OD",
+        "genericName":  "Ibuprofen Paracetamol OD",
+        "brandPrice":  116,
+        "genericPrice":  29,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Pain Relief"
+    },
+    {
+        "brandName":  "Brufen OD",
+        "genericName":  "Ibuprofen OD",
+        "brandPrice":  106,
+        "genericPrice":  27,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Pain Relief"
+    },
+    {
+        "brandName":  "Azithral OD",
+        "genericName":  "Azithromycin OD",
+        "brandPrice":  241,
+        "genericPrice":  49,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Antibiotic"
+    },
+    {
+        "brandName":  "Augmentin OD",
+        "genericName":  "Amoxicillin Clavulanate OD",
+        "brandPrice":  331,
+        "genericPrice":  62,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Antibiotic"
+    },
+    {
+        "brandName":  "Allegra OD",
+        "genericName":  "Fexofenadine OD",
+        "brandPrice":  226,
+        "genericPrice":  39,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Allergy"
+    },
+    {
+        "brandName":  "Cetrizine OD",
+        "genericName":  "Cetirizine OD",
+        "brandPrice":  111,
+        "genericPrice":  25,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Allergy"
+    },
+    {
+        "brandName":  "Omez OD",
+        "genericName":  "Omeprazole OD",
+        "brandPrice":  136,
+        "genericPrice":  29,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Gastric"
+    },
+    {
+        "brandName":  "Pantop OD",
+        "genericName":  "Pantoprazole OD",
+        "brandPrice":  146,
+        "genericPrice":  31,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Gastric"
+    },
+    {
+        "brandName":  "Glycomet OD",
+        "genericName":  "Metformin OD",
+        "brandPrice":  161,
+        "genericPrice":  31,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Diabetes"
+    },
+    {
+        "brandName":  "Telma OD",
+        "genericName":  "Telmisartan OD",
+        "brandPrice":  246,
+        "genericPrice":  42,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Blood Pressure"
+    },
+    {
+        "brandName":  "Ecosprin OD",
+        "genericName":  "Aspirin OD",
+        "brandPrice":  106,
+        "genericPrice":  23,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Cardiac"
+    },
+    {
+        "brandName":  "Atorva OD",
+        "genericName":  "Atorvastatin OD",
+        "brandPrice":  261,
+        "genericPrice":  45,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Cardiac"
+    },
+    {
+        "brandName":  "Zincovit OD",
+        "genericName":  "Zinc Multivitamin OD",
+        "brandPrice":  196,
+        "genericPrice":  47,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Vitamins"
+    },
+    {
+        "brandName":  "Becosules OD",
+        "genericName":  "Vitamin B Complex OD",
+        "brandPrice":  161,
+        "genericPrice":  39,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Vitamins"
+    },
+    {
+        "brandName":  "Volini OD",
+        "genericName":  "Diclofenac Gel OD",
+        "brandPrice":  231,
+        "genericPrice":  52,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Pain Relief"
+    },
+    {
+        "brandName":  "Benadryl OD",
+        "genericName":  "Diphenhydramine OD",
+        "brandPrice":  146,
+        "genericPrice":  32,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Cough Cold"
+    },
+    {
+        "brandName":  "Digene OD",
+        "genericName":  "Antacid OD",
+        "brandPrice":  136,
+        "genericPrice":  35,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Gastric"
+    },
+    {
+        "brandName":  "Aciloc OD",
+        "genericName":  "Ranitidine OD",
+        "brandPrice":  121,
+        "genericPrice":  28,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Gastric"
+    },
+    {
+        "brandName":  "Shelcal OD",
+        "genericName":  "Calcium Vitamin D3 OD",
+        "brandPrice":  186,
+        "genericPrice":  41,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Supplements"
+    },
+    {
+        "brandName":  "Thyronorm OD",
+        "genericName":  "Levothyroxine OD",
+        "brandPrice":  206,
+        "genericPrice":  35,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Thyroid"
+    },
+    {
+        "brandName":  "Montek OD",
+        "genericName":  "Montelukast OD",
+        "brandPrice":  216,
+        "genericPrice":  44,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Respiratory"
+    },
+    {
+        "brandName":  "Asthalin OD",
+        "genericName":  "Salbutamol OD",
+        "brandPrice":  171,
+        "genericPrice":  39,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Respiratory"
+    },
+    {
+        "brandName":  "Lasix OD",
+        "genericName":  "Furosemide OD",
+        "brandPrice":  89,
+        "genericPrice":  22,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Cardiac"
+    },
+    {
+        "brandName":  "Crocin XR",
+        "genericName":  "Paracetamol XR",
+        "brandPrice":  99,
+        "genericPrice":  26,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Pain Relief"
+    },
+    {
+        "brandName":  "Dolo XR",
+        "genericName":  "Paracetamol XR",
+        "brandPrice":  84,
+        "genericPrice":  23,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Pain Relief"
+    },
+    {
+        "brandName":  "Calpol XR",
+        "genericName":  "Paracetamol XR",
+        "brandPrice":  96,
+        "genericPrice":  25,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Pain Relief"
+    },
+    {
+        "brandName":  "Combiflam XR",
+        "genericName":  "Ibuprofen Paracetamol XR",
+        "brandPrice":  119,
+        "genericPrice":  30,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Pain Relief"
+    },
+    {
+        "brandName":  "Brufen XR",
+        "genericName":  "Ibuprofen XR",
+        "brandPrice":  109,
+        "genericPrice":  28,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Pain Relief"
+    },
+    {
+        "brandName":  "Azithral XR",
+        "genericName":  "Azithromycin XR",
+        "brandPrice":  244,
+        "genericPrice":  50,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Antibiotic"
+    },
+    {
+        "brandName":  "Augmentin XR",
+        "genericName":  "Amoxicillin Clavulanate XR",
+        "brandPrice":  334,
+        "genericPrice":  63,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Antibiotic"
+    },
+    {
+        "brandName":  "Allegra XR",
+        "genericName":  "Fexofenadine XR",
+        "brandPrice":  229,
+        "genericPrice":  40,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Allergy"
+    },
+    {
+        "brandName":  "Cetrizine XR",
+        "genericName":  "Cetirizine XR",
+        "brandPrice":  114,
+        "genericPrice":  26,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Allergy"
+    },
+    {
+        "brandName":  "Omez XR",
+        "genericName":  "Omeprazole XR",
+        "brandPrice":  139,
+        "genericPrice":  30,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Gastric"
+    },
+    {
+        "brandName":  "Pantop XR",
+        "genericName":  "Pantoprazole XR",
+        "brandPrice":  149,
+        "genericPrice":  32,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Gastric"
+    },
+    {
+        "brandName":  "Glycomet XR",
+        "genericName":  "Metformin XR",
+        "brandPrice":  164,
+        "genericPrice":  32,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Diabetes"
+    },
+    {
+        "brandName":  "Telma XR",
+        "genericName":  "Telmisartan XR",
+        "brandPrice":  249,
+        "genericPrice":  43,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Blood Pressure"
+    },
+    {
+        "brandName":  "Ecosprin XR",
+        "genericName":  "Aspirin XR",
+        "brandPrice":  109,
+        "genericPrice":  24,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Cardiac"
+    },
+    {
+        "brandName":  "Atorva XR",
+        "genericName":  "Atorvastatin XR",
+        "brandPrice":  264,
+        "genericPrice":  46,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Cardiac"
+    },
+    {
+        "brandName":  "Zincovit XR",
+        "genericName":  "Zinc Multivitamin XR",
+        "brandPrice":  199,
+        "genericPrice":  48,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Vitamins"
+    },
+    {
+        "brandName":  "Becosules XR",
+        "genericName":  "Vitamin B Complex XR",
+        "brandPrice":  164,
+        "genericPrice":  40,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Vitamins"
+    },
+    {
+        "brandName":  "Volini XR",
+        "genericName":  "Diclofenac Gel XR",
+        "brandPrice":  234,
+        "genericPrice":  53,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Pain Relief"
+    },
+    {
+        "brandName":  "Benadryl XR",
+        "genericName":  "Diphenhydramine XR",
+        "brandPrice":  149,
+        "genericPrice":  33,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Cough Cold"
+    },
+    {
+        "brandName":  "Digene XR",
+        "genericName":  "Antacid XR",
+        "brandPrice":  139,
+        "genericPrice":  36,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Gastric"
+    },
+    {
+        "brandName":  "Aciloc XR",
+        "genericName":  "Ranitidine XR",
+        "brandPrice":  124,
+        "genericPrice":  29,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Gastric"
+    },
+    {
+        "brandName":  "Shelcal XR",
+        "genericName":  "Calcium Vitamin D3 XR",
+        "brandPrice":  189,
+        "genericPrice":  42,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Supplements"
+    },
+    {
+        "brandName":  "Thyronorm XR",
+        "genericName":  "Levothyroxine XR",
+        "brandPrice":  209,
+        "genericPrice":  36,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Thyroid"
+    },
+    {
+        "brandName":  "Montek XR",
+        "genericName":  "Montelukast XR",
+        "brandPrice":  219,
+        "genericPrice":  45,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Respiratory"
+    },
+    {
+        "brandName":  "Asthalin XR",
+        "genericName":  "Salbutamol XR",
+        "brandPrice":  174,
+        "genericPrice":  40,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Respiratory"
+    },
+    {
+        "brandName":  "Lasix XR",
+        "genericName":  "Furosemide XR",
+        "brandPrice":  92,
+        "genericPrice":  23,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Cardiac"
+    },
+    {
+        "brandName":  "Crocin Forte",
+        "genericName":  "Paracetamol Forte",
+        "brandPrice":  102,
+        "genericPrice":  27,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Pain Relief"
+    },
+    {
+        "brandName":  "Dolo Forte",
+        "genericName":  "Paracetamol Forte",
+        "brandPrice":  87,
+        "genericPrice":  24,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Pain Relief"
+    },
+    {
+        "brandName":  "Calpol Forte",
+        "genericName":  "Paracetamol Forte",
+        "brandPrice":  99,
+        "genericPrice":  26,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Pain Relief"
+    },
+    {
+        "brandName":  "Combiflam Forte",
+        "genericName":  "Ibuprofen Paracetamol Forte",
+        "brandPrice":  122,
+        "genericPrice":  31,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Pain Relief"
+    },
+    {
+        "brandName":  "Brufen Forte",
+        "genericName":  "Ibuprofen Forte",
+        "brandPrice":  112,
+        "genericPrice":  29,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Pain Relief"
+    },
+    {
+        "brandName":  "Azithral Forte",
+        "genericName":  "Azithromycin Forte",
+        "brandPrice":  247,
+        "genericPrice":  51,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Antibiotic"
+    },
+    {
+        "brandName":  "Augmentin Forte",
+        "genericName":  "Amoxicillin Clavulanate Forte",
+        "brandPrice":  337,
+        "genericPrice":  64,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Antibiotic"
+    },
+    {
+        "brandName":  "Allegra Forte",
+        "genericName":  "Fexofenadine Forte",
+        "brandPrice":  232,
+        "genericPrice":  41,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Allergy"
+    },
+    {
+        "brandName":  "Cetrizine Forte",
+        "genericName":  "Cetirizine Forte",
+        "brandPrice":  117,
+        "genericPrice":  27,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Allergy"
+    },
+    {
+        "brandName":  "Omez Forte",
+        "genericName":  "Omeprazole Forte",
+        "brandPrice":  142,
+        "genericPrice":  31,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Gastric"
+    },
+    {
+        "brandName":  "Pantop Forte",
+        "genericName":  "Pantoprazole Forte",
+        "brandPrice":  152,
+        "genericPrice":  33,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Gastric"
+    },
+    {
+        "brandName":  "Glycomet Forte",
+        "genericName":  "Metformin Forte",
+        "brandPrice":  167,
+        "genericPrice":  33,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Diabetes"
+    },
+    {
+        "brandName":  "Telma Forte",
+        "genericName":  "Telmisartan Forte",
+        "brandPrice":  252,
+        "genericPrice":  44,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Blood Pressure"
+    },
+    {
+        "brandName":  "Ecosprin Forte",
+        "genericName":  "Aspirin Forte",
+        "brandPrice":  112,
+        "genericPrice":  25,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Cardiac"
+    },
+    {
+        "brandName":  "Atorva Forte",
+        "genericName":  "Atorvastatin Forte",
+        "brandPrice":  267,
+        "genericPrice":  47,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Cardiac"
+    },
+    {
+        "brandName":  "Zincovit Forte",
+        "genericName":  "Zinc Multivitamin Forte",
+        "brandPrice":  202,
+        "genericPrice":  49,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Vitamins"
+    },
+    {
+        "brandName":  "Becosules Forte",
+        "genericName":  "Vitamin B Complex Forte",
+        "brandPrice":  167,
+        "genericPrice":  41,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Vitamins"
+    },
+    {
+        "brandName":  "Volini Forte",
+        "genericName":  "Diclofenac Gel Forte",
+        "brandPrice":  237,
+        "genericPrice":  54,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Pain Relief"
+    },
+    {
+        "brandName":  "Benadryl Forte",
+        "genericName":  "Diphenhydramine Forte",
+        "brandPrice":  152,
+        "genericPrice":  34,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Cough Cold"
+    },
+    {
+        "brandName":  "Digene Forte",
+        "genericName":  "Antacid Forte",
+        "brandPrice":  142,
+        "genericPrice":  37,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Gastric"
+    },
+    {
+        "brandName":  "Aciloc Forte",
+        "genericName":  "Ranitidine Forte",
+        "brandPrice":  127,
+        "genericPrice":  30,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Gastric"
+    },
+    {
+        "brandName":  "Shelcal Forte",
+        "genericName":  "Calcium Vitamin D3 Forte",
+        "brandPrice":  192,
+        "genericPrice":  43,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Supplements"
+    },
+    {
+        "brandName":  "Thyronorm Forte",
+        "genericName":  "Levothyroxine Forte",
+        "brandPrice":  212,
+        "genericPrice":  37,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Thyroid"
+    },
+    {
+        "brandName":  "Montek Forte",
+        "genericName":  "Montelukast Forte",
+        "brandPrice":  222,
+        "genericPrice":  46,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Respiratory"
+    },
+    {
+        "brandName":  "Asthalin Forte",
+        "genericName":  "Salbutamol Forte",
+        "brandPrice":  177,
+        "genericPrice":  41,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Respiratory"
+    },
+    {
+        "brandName":  "Lasix Forte",
+        "genericName":  "Furosemide Forte",
+        "brandPrice":  95,
+        "genericPrice":  24,
+        "manufacturer":  "PMBJP / Generic Alternative",
+        "imageName":  "pill",
+        "category":  "Cardiac"
+    }
+]

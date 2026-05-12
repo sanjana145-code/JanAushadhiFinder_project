@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">जन औषधि फाइंडर</string>
+    <string name="search">खोजें</string>
+    <string name="stores">स्टोर</string>
+    <string name="reminders">रिमाइंडर</string>
+    <string name="savings">बचत</string>
+    <string name="profile">प्रोफाइल</string>
+    <string name="ai">एआई</string>
+    <string name="request_stock">स्टॉक अनुरोध</string>
+    <string name="view_nearby_store">नजदीकी स्टोर देखें</string>
+    <string name="open_now">अभी खुला है</string>
+    <string name="closed">बंद</string>
+    <string name="ask_ai">एआई से पूछें</string>
+</resources>

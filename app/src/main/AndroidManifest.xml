@@ -5,6 +5,8 @@
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
     <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
     <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM"/>
     <uses-permission android:name="android.permission.USE_EXACT_ALARM"/>
@@ -20,7 +22,7 @@
         android:theme="@style/Theme.JanAushadhiFinder">
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyBFDmgsext3_VtSA8gavwLu0TiRjknXCWI"/>
+            android:value="${MAPS_API_KEY}"/>
         <receiver
             android:name=".ReminderReceiver"
             android:exported="false"/>

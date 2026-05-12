@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ಜನ ಔಷಧಿ ಫೈಂಡರ್</string>
+    <string name="search">ಹುಡುಕಿ</string>
+    <string name="stores">ಮಳಿಗೆಗಳು</string>
+    <string name="reminders">ಜ್ಞಾಪನೆಗಳು</string>
+    <string name="savings">ಉಳಿತಾಯ</string>
+    <string name="profile">ಪ್ರೊಫೈಲ್</string>
+    <string name="ai">ಎಐ</string>
+    <string name="request_stock">ಸ್ಟಾಕ್ ವಿನಂತಿ</string>
+    <string name="view_nearby_store">ಹತ್ತಿರದ ಮಳಿಗೆ ನೋಡಿ</string>
+    <string name="open_now">ಈಗ ತೆರೆದಿದೆ</string>
+    <string name="closed">ಮುಚ್ಚಿದೆ</string>
+    <string name="ask_ai">ಎಐಗೆ ಕೇಳಿ</string>
+</resources>
