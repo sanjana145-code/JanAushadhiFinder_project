@@ -1,16 +1,21 @@
 package com.example.janaushadhifinder
 
 import android.app.Activity
+import android.content.ActivityNotFoundException
 import android.content.Intent
 import android.speech.RecognizerIntent
 import androidx.compose.foundation.background
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.Clear
 import androidx.compose.material.icons.filled.LocalPharmacy
 import androidx.compose.material.icons.filled.Mic
+import androidx.compose.material.icons.filled.Search
+import androidx.compose.material.icons.filled.SearchOff
 import androidx.compose.material.icons.filled.Storefront
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
@@ -18,6 +23,7 @@ import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.semantics.contentDescription
 import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.text.SpanStyle
@@ -43,11 +49,15 @@ val SavingsBg  = Color(0xFF00897B)
 @Composable
 fun MedicineSearchScreen(
     viewModel: MedicineSearchViewModel = viewModel(),
+    stockRequestViewModel: StockRequestViewModel = viewModel(),
     onViewNearbyStore: (Medicine) -> Unit = {}
 ) {
     val uiState by viewModel.uiState.collectAsStateWithLifecycle()
+    val stockRequestUiState by stockRequestViewModel.uiState.collectAsStateWithLifecycle()
     var stockRequestMedicine by remember { mutableStateOf<Medicine?>(null) }
-    var showStockSuccess by remember { mutableStateOf(false) }
+    var voiceError by remember { mutableStateOf(false) }
+    val context = LocalContext.current
+    val snackbarHostState = remember { SnackbarHostState() }
     val voiceLauncher = rememberLauncherForActivityResult(
         ActivityResultContracts.StartActivityForResult()
     ) { result ->
@@ -59,11 +69,28 @@ fun MedicineSearchScreen(
         }
     }
 
-    Column(
-        modifier = Modifier
-            .fillMaxSize()
-            .background(Color(0xFFF5F5F5))
-    ) {
+    LaunchedEffect(stockRequestMedicine) {
+        stockRequestMedicine?.let { stockRequestViewModel.prepare(it) }
+    }
+
+    LaunchedEffect(stockRequestUiState.successMessage) {
+        if (stockRequestUiState.successMessage.isNotBlank()) {
+            snackbarHostState.showSnackbar(stockRequestUiState.successMessage)
+            stockRequestMedicine = null
+            stockRequestViewModel.clearResult()
+        }
+    }
+
+    Scaffold(
+        snackbarHost = { SnackbarHost(snackbarHostState) },
+        containerColor = Color(0xFFF5F5F5)
+    ) { scaffoldPadding ->
+        Column(
+            modifier = Modifier
+                .fillMaxSize()
+                .padding(scaffoldPadding)
+                .background(Color(0xFFF5F5F5))
+        ) {
         // Header
         Column(
             modifier = Modifier
@@ -89,35 +116,58 @@ fun MedicineSearchScreen(
         OutlinedTextField(
             value = uiState.query,
             onValueChange = viewModel::onQueryChanged,
-            placeholder = { Text("Search medicine name (e.g. Crocin)") },
+            placeholder = { Text("Search branded or generic medicine") },
             leadingIcon = {
                 Icon(
-                    imageVector = Icons.Default.LocalPharmacy,
+                    imageVector = Icons.Default.Search,
                     contentDescription = null,
                     tint = TealBg
                 )
             },
             trailingIcon = {
-                IconButton(
-                    onClick = {
-                        val intent = Intent(RecognizerIntent.ACTION_RECOGNIZE_SPEECH).apply {
-                            putExtra(
-                                RecognizerIntent.EXTRA_LANGUAGE_MODEL,
-                                RecognizerIntent.LANGUAGE_MODEL_FREE_FORM
-                            )
-                            putExtra(RecognizerIntent.EXTRA_PROMPT, "Speak medicine name")
+                Row {
+                    if (uiState.query.isNotBlank()) {
+                        IconButton(
+                            onClick = viewModel::clearQuery,
+                            modifier = Modifier.semantics { contentDescription = "Clear search" }
+                        ) {
+                            Icon(Icons.Default.Clear, contentDescription = null, tint = Color.Gray)
                         }
-                        voiceLauncher.launch(intent)
-                    },
-                    modifier = Modifier.semantics { contentDescription = "Voice search" }
-                ) {
-                    Icon(Icons.Default.Mic, contentDescription = null, tint = TealBg)
+                    }
+                    IconButton(
+                        onClick = {
+                            val intent = Intent(RecognizerIntent.ACTION_RECOGNIZE_SPEECH).apply {
+                                putExtra(
+                                    RecognizerIntent.EXTRA_LANGUAGE_MODEL,
+                                    RecognizerIntent.LANGUAGE_MODEL_FREE_FORM
+                                )
+                                putExtra(RecognizerIntent.EXTRA_PROMPT, "Speak medicine name")
+                            }
+                            try {
+                                voiceLauncher.launch(intent)
+                            } catch (_: ActivityNotFoundException) {
+                                voiceError = true
+                            }
+                        },
+                        modifier = Modifier.semantics { contentDescription = "Voice search" }
+                    ) {
+                        Icon(Icons.Default.Mic, contentDescription = null, tint = TealBg)
+                    }
+                }
+            },
+            supportingText = {
+                if (voiceError) {
+                    Text("Voice search is not available on this device.", color = RedText)
+                    LaunchedEffect(voiceError) {
+                        kotlinx.coroutines.delay(2500)
+                        voiceError = false
+                    }
                 }
             },
             modifier = Modifier
                 .fillMaxWidth()
-                .padding(16.dp),
-            shape = RoundedCornerShape(12.dp),
+                .padding(start = 16.dp, end = 16.dp, top = 16.dp, bottom = 8.dp),
+            shape = RoundedCornerShape(18.dp),
             colors = OutlinedTextFieldDefaults.colors(
                 focusedBorderColor = TealBg,
                 unfocusedBorderColor = Color.LightGray,
@@ -128,15 +178,42 @@ fun MedicineSearchScreen(
         )
 
         if (uiState.suggestions.isNotEmpty()) {
-            Row(
-                modifier = Modifier.padding(horizontal = 16.dp),
-                horizontalArrangement = Arrangement.spacedBy(8.dp)
+            Card(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .padding(horizontal = 16.dp),
+                shape = RoundedCornerShape(12.dp),
+                colors = CardDefaults.cardColors(containerColor = Color.White),
+                elevation = CardDefaults.cardElevation(defaultElevation = 3.dp)
             ) {
-                uiState.suggestions.take(3).forEach { suggestion ->
-                    AssistChip(
-                        onClick = { viewModel.onQueryChanged(suggestion) },
-                        label = { Text(suggestion, fontSize = 12.sp) }
-                    )
+                Column(modifier = Modifier.padding(vertical = 4.dp)) {
+                    uiState.suggestions.take(5).forEachIndexed { index, suggestion ->
+                        Row(
+                            modifier = Modifier
+                                .fillMaxWidth()
+                                .clickable { viewModel.onQueryChanged(suggestion) }
+                                .padding(horizontal = 12.dp, vertical = 10.dp),
+                            verticalAlignment = Alignment.CenterVertically
+                        ) {
+                            Icon(
+                                imageVector = Icons.Default.Search,
+                                contentDescription = null,
+                                tint = TealBg,
+                                modifier = Modifier.size(18.dp)
+                            )
+                            Spacer(modifier = Modifier.width(10.dp))
+                            HighlightedText(
+                                text = suggestion,
+                                query = uiState.query,
+                                fontSize = 14,
+                                color = Color(0xFF212121),
+                                modifier = Modifier.weight(1f)
+                            )
+                        }
+                        if (index != uiState.suggestions.take(5).lastIndex) {
+                            HorizontalDivider(color = Color(0xFFF1F3F4))
+                        }
+                    }
                 }
             }
             Spacer(modifier = Modifier.height(8.dp))
@@ -200,53 +277,94 @@ fun MedicineSearchScreen(
             contentPadding = PaddingValues(8.dp),
             verticalArrangement = Arrangement.spacedBy(8.dp)
         ) {
-            items(uiState.medicines, key = { "${it.brandName}-${it.genericName}" }) { medicine ->
-                MedicineCard(
-                    medicine = medicine,
-                    query = uiState.query,
-                    onViewNearbyStore = { onViewNearbyStore(medicine) },
-                    onRequestStock = { stockRequestMedicine = medicine }
-                )
+            if (!uiState.isLoading && uiState.medicines.isEmpty() && uiState.query.isNotBlank()) {
+                item {
+                    EmptySearchState(
+                        query = uiState.query,
+                        closestMatch = uiState.closestMatch,
+                        onSuggestionClick = { suggestion -> viewModel.onQueryChanged(suggestion) }
+                    )
+                }
+            } else {
+                items(uiState.medicines, key = { "${it.brandName}-${it.genericName}" }) { medicine ->
+                    MedicineCard(
+                        medicine = medicine,
+                        query = uiState.query,
+                        onViewNearbyStore = { onViewNearbyStore(medicine) },
+                        onRequestStock = { stockRequestMedicine = medicine }
+                    )
+                }
             }
+        }
         }
     }
 
     stockRequestMedicine?.let { medicine ->
-        AlertDialog(
-            onDismissRequest = { stockRequestMedicine = null },
-            title = { Text("Request Stock", fontWeight = FontWeight.Bold) },
-            text = {
-                Text("Send a simulated stock request for ${medicine.brandName} to nearby Jan-Aushadhi stores?")
+        StockRequestBottomSheet(
+            medicine = medicine,
+            uiState = stockRequestUiState,
+            stores = sampleStores,
+            onDismiss = {
+                stockRequestMedicine = null
+                stockRequestViewModel.clearResult()
             },
-            confirmButton = {
-                TextButton(
-                    onClick = {
-                        stockRequestMedicine = null
-                        showStockSuccess = true
-                    }
-                ) {
-                    Text("Send Request", color = TealBg, fontWeight = FontWeight.Bold)
-                }
-            },
-            dismissButton = {
-                TextButton(onClick = { stockRequestMedicine = null }) {
-                    Text("Cancel", color = Color.Gray)
-                }
-            }
+            onQuantityChanged = stockRequestViewModel::onQuantityChanged,
+            onPhoneChanged = stockRequestViewModel::onPhoneChanged,
+            onNotesChanged = stockRequestViewModel::onNotesChanged,
+            onStoreSelected = stockRequestViewModel::onStoreSelected,
+            onSendRequest = { stockRequestViewModel.sendRequest(medicine) }
         )
     }
+}
 
-    if (showStockSuccess) {
-        AlertDialog(
-            onDismissRequest = { showStockSuccess = false },
-            title = { Text("Request Sent", fontWeight = FontWeight.Bold) },
-            text = { Text("Your request has been sent successfully.") },
-            confirmButton = {
-                TextButton(onClick = { showStockSuccess = false }) {
-                    Text("OK", color = TealBg, fontWeight = FontWeight.Bold)
-                }
+@Composable
+fun EmptySearchState(
+    query: String,
+    closestMatch: String?,
+    onSuggestionClick: (String) -> Unit
+) {
+    Card(
+        modifier = Modifier
+            .fillMaxWidth()
+            .padding(8.dp),
+        shape = RoundedCornerShape(16.dp),
+        colors = CardDefaults.cardColors(containerColor = Color.White),
+        elevation = CardDefaults.cardElevation(defaultElevation = 2.dp)
+    ) {
+        Column(
+            modifier = Modifier.padding(24.dp),
+            horizontalAlignment = Alignment.CenterHorizontally
+        ) {
+            Icon(
+                imageVector = Icons.Default.SearchOff,
+                contentDescription = null,
+                tint = Color(0xFF90A4AE),
+                modifier = Modifier.size(46.dp)
+            )
+            Spacer(modifier = Modifier.height(12.dp))
+            Text(
+                text = "No exact match found for \"$query\".",
+                fontSize = 16.sp,
+                fontWeight = FontWeight.Bold,
+                color = Color(0xFF263238)
+            )
+            Text(
+                text = "Try another medicine name",
+                fontSize = 13.sp,
+                color = Color.Gray,
+                modifier = Modifier.padding(top = 4.dp)
+            )
+            if (!closestMatch.isNullOrBlank()) {
+                Spacer(modifier = Modifier.height(12.dp))
+                AssistChip(
+                    onClick = { onSuggestionClick(closestMatch) },
+                    label = { Text("Did you mean: $closestMatch?") },
+                    colors = AssistChipDefaults.assistChipColors(
+                        labelColor = TealBg
+                    )
+                )
             }
-        )
+        }
     }
 }
 

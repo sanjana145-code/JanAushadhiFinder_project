@@ -7,6 +7,7 @@ import com.example.janaushadhifinder.Medicine
 import com.example.janaushadhifinder.MedicineData
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.Flow
+import kotlinx.coroutines.flow.flowOn
 import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.withContext
 
@@ -38,34 +39,47 @@ class MedicineRepository(
 
     fun observeMedicines(query: String): Flow<List<Medicine>> {
         val normalized = query.trim()
-        val source = if (normalized.isBlank()) dao.observeAll() else dao.observeSearch(normalized)
-        return source.map { rows ->
+        return dao.observeAll().map { rows ->
             val medicines = rows.map { it.toMedicine() }
             if (normalized.isBlank()) {
                 medicines
             } else {
                 medicines
                     .filter { medicine ->
-                        FuzzySearch.matches(medicine.brandName, normalized) ||
-                            FuzzySearch.matches(medicine.genericName, normalized) ||
-                            FuzzySearch.matches(medicine.category, normalized)
+                        FuzzySearch.matchesAny(
+                            normalized,
+                            medicine.brandName,
+                            medicine.genericName,
+                            medicine.category,
+                            medicine.manufacturer
+                        )
                     }
                     .sortedWith(
                         compareBy<Medicine> {
-                            minOf(
-                                FuzzySearch.score(it.brandName, normalized),
-                                FuzzySearch.score(it.genericName, normalized)
+                            FuzzySearch.medicineScore(
+                                normalized,
+                                it.brandName,
+                                it.genericName,
+                                it.category,
+                                it.manufacturer
                             )
                         }.thenBy { it.brandName }
                     )
             }
-        }
+        }.flowOn(Dispatchers.Default)
     }
 
     fun observeSuggestions(query: String): Flow<List<String>> {
         return dao.observeAll().map { rows ->
             val candidates = rows.flatMap { listOf(it.brandName, it.genericName) }
             FuzzySearch.suggestions(query, candidates)
-        }
+        }.flowOn(Dispatchers.Default)
+    }
+
+    fun observeClosestMatch(query: String): Flow<String?> {
+        return dao.observeAll().map { rows ->
+            val candidates = rows.flatMap { listOf(it.brandName, it.genericName) }
+            FuzzySearch.closest(query, candidates)
+        }.flowOn(Dispatchers.Default)
     }
 }

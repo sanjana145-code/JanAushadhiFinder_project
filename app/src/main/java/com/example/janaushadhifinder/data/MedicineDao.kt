@@ -22,6 +22,7 @@ interface MedicineDao {
         SELECT * FROM medicines
         WHERE brandName LIKE '%' || :query || '%'
            OR genericName LIKE '%' || :query || '%'
+           OR manufacturer LIKE '%' || :query || '%'
            OR category LIKE '%' || :query || '%'
         ORDER BY brandName COLLATE NOCASE
         LIMIT 80

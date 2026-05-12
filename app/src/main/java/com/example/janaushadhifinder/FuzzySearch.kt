@@ -6,6 +6,16 @@ object FuzzySearch {
         return score(text, query) <= threshold(query)
     }
 
+    fun matchesAny(query: String, vararg fields: String): Boolean {
+        if (query.isBlank()) return true
+        return fields.any { matches(it, query) }
+    }
+
+    fun medicineScore(query: String, vararg fields: String): Int {
+        if (query.isBlank()) return 0
+        return fields.minOfOrNull { score(it, query) } ?: Int.MAX_VALUE
+    }
+
     fun score(text: String, query: String): Int {
         val t = normalize(text)
         val q = normalize(query)
@@ -14,6 +24,10 @@ object FuzzySearch {
 
         if (t.contains(q)) return 0
         if (q.contains(t)) return 1
+
+        val compactText = t.replace(" ", "")
+        val compactQuery = q.replace(" ", "")
+        if (compactText.contains(compactQuery)) return 0
 
         val words = t.split(" ").filter { it.isNotBlank() }
         val wordScore = words.minOfOrNull { word ->
@@ -38,6 +52,19 @@ object FuzzySearch {
             .map { it.first }
     }
 
+    fun closest(
+        query: String,
+        candidates: List<String>
+    ): String? {
+        if (query.isBlank()) return null
+        return candidates
+            .distinct()
+            .map { it to score(it, query) }
+            .filter { it.second <= threshold(query) + 2 }
+            .minWithOrNull(compareBy<Pair<String, Int>> { it.second }.thenBy { it.first })
+            ?.first
+    }
+
     private fun bestWindowDistance(text: String, query: String): Int {
         if (text.isBlank()) return Int.MAX_VALUE
         if (text.length <= query.length) return levenshtein(text, query)
@@ -60,6 +87,7 @@ object FuzzySearch {
             length <= 2 -> 0
             length <= 4 -> 1
             length <= 7 -> 2
+            length <= 10 -> 3
             else -> 3
         }
     }

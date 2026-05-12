@@ -10,6 +10,7 @@ import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.combine
 import kotlinx.coroutines.flow.debounce
+import kotlinx.coroutines.flow.distinctUntilChanged
 import kotlinx.coroutines.flow.flatMapLatest
 import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.launch
@@ -18,8 +19,15 @@ data class MedicineSearchUiState(
     val query: String = "",
     val medicines: List<Medicine> = emptyList(),
     val suggestions: List<String> = emptyList(),
+    val closestMatch: String? = null,
     val isLoading: Boolean = true,
     val dataSource: String = "Room"
+)
+
+private data class SearchData(
+    val medicines: List<Medicine> = emptyList(),
+    val suggestions: List<String> = emptyList(),
+    val closestMatch: String? = null
 )
 
 @OptIn(FlowPreview::class, kotlinx.coroutines.ExperimentalCoroutinesApi::class)
@@ -29,24 +37,38 @@ class MedicineSearchViewModel(application: Application) : AndroidViewModel(appli
     private val loading = MutableStateFlow(true)
     private val dataSource = MutableStateFlow("Room")
 
-    val uiState: StateFlow<MedicineSearchUiState> = query
-        .debounce(250)
+    private val searchData = query
+        .debounce(180)
+        .distinctUntilChanged()
         .flatMapLatest { debouncedQuery ->
             combine(
                 repository.observeMedicines(debouncedQuery),
                 repository.observeSuggestions(debouncedQuery),
-                loading,
-                dataSource
-            ) { medicines, suggestions, isLoading, source ->
-                MedicineSearchUiState(
-                    query = query.value,
+                repository.observeClosestMatch(debouncedQuery)
+            ) { medicines, suggestions, closestMatch ->
+                SearchData(
                     medicines = medicines,
                     suggestions = suggestions,
-                    isLoading = isLoading,
-                    dataSource = source
+                    closestMatch = closestMatch
                 )
             }
         }
+
+    val uiState: StateFlow<MedicineSearchUiState> = combine(
+        query,
+        searchData,
+        loading,
+        dataSource
+    ) { currentQuery, search, isLoading, source ->
+        MedicineSearchUiState(
+            query = currentQuery,
+            medicines = search.medicines,
+            suggestions = search.suggestions,
+            closestMatch = search.closestMatch,
+            isLoading = isLoading,
+            dataSource = source
+        )
+    }
         .stateIn(viewModelScope, SharingStarted.WhileSubscribed(5_000), MedicineSearchUiState())
 
     init {
@@ -61,5 +83,9 @@ class MedicineSearchViewModel(application: Application) : AndroidViewModel(appli
 
     fun onQueryChanged(value: String) {
         query.value = value
+    }
+
+    fun clearQuery() {
+        query.value = ""
     }
 }

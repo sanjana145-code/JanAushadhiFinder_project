@@ -10,6 +10,7 @@ import com.example.janaushadhifinder.Medicine
     indices = [
         Index(value = ["brandName"]),
         Index(value = ["genericName"]),
+        Index(value = ["manufacturer"]),
         Index(value = ["category"])
     ]
 )

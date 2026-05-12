@@ -5,6 +5,9 @@ import com.google.firebase.database.DataSnapshot
 import com.google.firebase.database.DatabaseError
 import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.database.ValueEventListener
+import com.google.firebase.firestore.FieldValue
+import com.google.firebase.firestore.FirebaseFirestore
+import kotlinx.coroutines.tasks.await
 import kotlin.coroutines.resume
 import kotlin.coroutines.suspendCoroutine
 
@@ -13,6 +16,7 @@ class FirebaseRepository {
     private val db = FirebaseDatabase
         .getInstance("https://janaushadhifinder-3c266-default-rtdb.firebaseio.com")
         .reference
+    private val firestore = FirebaseFirestore.getInstance()
 
     suspend fun getMedicines(): List<Medicine> = suspendCoroutine { cont ->
         Log.d("Firebase", "Fetching medicines...")
@@ -77,5 +81,23 @@ class FirebaseRepository {
                 }
             }
         )
+    }
+
+    suspend fun saveStockRequest(request: StockRequest): String {
+        val document = firestore.collection("stock_requests").document()
+        val payload = hashMapOf(
+            "requestId" to document.id,
+            "medicineName" to request.medicineName,
+            "genericName" to request.genericName,
+            "storeName" to request.storeName,
+            "quantity" to request.quantity,
+            "userPhone" to request.userPhone,
+            "notes" to request.notes,
+            "requestStatus" to request.status,
+            "timestamp" to FieldValue.serverTimestamp(),
+            "timestampMillis" to request.timestampMillis
+        )
+        document.set(payload).await()
+        return document.id
     }
 }
